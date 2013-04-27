@@ -1,0 +1,18 @@
+---
+layout: page
+title: API Discovery - News & Analysis
+---
+
+<a href="http://feeds.feedburner.com/baas-news-analysis" target="_blank"><img src="images/rss.png" align="right" width="20" style="padding-top: 10px;" /></a>
+<h1>API Discovery - News & Analysis</h1>
+
+{% for post in site.posts limit:25 %}
+<div class="post">
+    
+    <p><a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><h3><strong>{{ post.title }}</strong></h3></a>
+    <p><i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }}</span></strong></i></p>
+    <p>{{ post.content | strip_html | truncatewords: 100 }}...<a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="color:#000; font-weight: bold;">read more</a>.</p>
+    <hr />     
+   
+</div>
+{% endfor %}

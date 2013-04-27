@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    
+    <script src="{{ ASSET_PATH }}/js/mustache.js" type="text/javascript"></script>
+    <script src="{{ ASSET_PATH }}/js/base64.js" type="text/javascript"></script>
+    <script src="{{ ASSET_PATH }}/js/underscore-min.js" type="text/javascript"></script>
+    <script src="{{ ASSET_PATH }}/js/utilities.js" type="text/javascript"></script>
+
+    <style type="text/css">
+    #logo .site-title, #logo .site-description { display:block; }
+    body {background-repeat:no-repeat;background-position:top center;border-top:4px solid #000000;}
+    #header {background-repeat:repeat;background-position:top center;margin-top:0px;margin-bottom:0px;padding-top:20px;padding-bottom:15px;border:0px solid ;}
+    #logo .site-title a {font:normal 40px/1em Georgia, serif;color:#222222}
+    #logo .site-description {font:italic 14px/1em Georgia, serif;color:#999999}
+    #logo .site-title a {font:normal 40px/1em Georgia, serif;color:#222222}
+    #logo .site-description {font:italic 14px/1em Georgia, serif;color:#999999}
+    body, p {font:normal 14px/1.5em Arial, sans-serif;color:#555555}
+    h1 {font:normal 28px/1.5em Georgia, serif;color:#222222}h2 {font:normal 24px/1.5em Georgia, serif;color:#222222}h3 {font:normal 20px/1.5em Georgia, serif;color:#222222}h4 {font:normal 16px/1.5em Georgia, serif;color:#222222}h5 {font:normal 14px/1.5em Georgia, serif;color:#222222}h6 {font:normal 12px/1.5em Georgia, serif;color:#222222}
+    .post .title, .page .title, .post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {font:bold 20px/1.2em Arial, sans-serif;color:#222222; padding-bottom: 15px;}
+    .entry, .entry p{font:normal 14px/1.5em Georgia, serif;color:#555555}
+    .post-more {font:normal 12px/1.5em Arial, sans-serif;color:#868686;border-top:4px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+    .nav-entries, .wp-pagenavi {border-top:1px solid #e6e6e6;border-bottom:4px solid #e6e6e6;}
+    .nav-entries a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi .current, .wp-pagenavi .on, .wp-pagenavi a:hover, .wp-pagenavi span.extend, .wp-pagenavi span.pages {font:italic 12px/1.5em Georgia, serif;color:#777777!important}
+    .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi span.extend, .wp-pagenavi span.pages, .wp-pagenavi span.current {color:#777777!important}
+    
+    .widget h3 {font:bold 14px/1.5em Arial, sans-serif;color:#555555;border-bottom:3px solid #e6e6e6;}
+    .widget_recent_comments li, #twitter li { border-color: #e6e6e6;}
+    
+    .widget p, .widget .textwidget {font:normal 12px/1.5em Arial, sans-serif;color:#555555;}
+    .widget {font:normal 12px/1.5em Arial, sans-serif;color:#555555;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+    
+    .widget ul{
+        margin-left: 35px;
+        list-style: disc;
+    }
+    
+    .nav a, #navigation ul.rss a {font:normal 14px Arial, sans-serif;color:#555555}
+    #navigation {border-top:1px solid #dbdbdb;border-bottom:4px solid #dbdbdb;border-left:0px solid #dbdbdb;border-right:0px solid #dbdbdb;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+    #footer, #footer p {font:italic 14px Georgia, serif;color:#777777}
+    #footer {border-top:4px solid #dbdbdb;border-bottom:0px solid ;border-left:0px solid ;border-right:0px solid ;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+    
+    .bodycontent{
+        margin: 8px 0 8px 40px;
+        padding: 0px 0px 0px 0px;
+        }
+        
+     p
+        {
+        padding: 2px;   
+        }
+    
+    blockquote
+        {
+        margin-left: 30px;  
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    
+    .mainlist
+        {   
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        }
+    .mainlist li
+        {
+        list-style-type:disc;   
+        }
+        
+    .taglist
+        {   
+        margin-top: 10px;   
+        margin-left: 50px;
+        margin-bottom: 10px;
+        }   
+    .taglist li
+        {
+        display:inline; 
+        list-style: none; 
+        padding-left: 7px;
+        }
+    .bodylist
+        {   
+        margin-top: 5px;    
+        margin-left: 50px;
+        margin-bottom: 5px;
+        }   
+    .taglist li
+        {
+        list-style-type:disc;
+        }   
+        
+    ul{padding-left: 50px; list-style:disc;}
+    
+    </style>
+
+</head>
+
+<body class="home blog two-col-left width-940 two-col-left-940">
+
+<div id="wrapper">
+    
+     <div id="header" class="col-full">
+        <div id="logo"><a href="" title=""><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png"></a></div> 
+        
+    </div>
+    
+    <div id="navigation" class="col-full">
+
+        <ul id="main-nav" class="nav fl">
+            <li class="{% if page.title == 'API Discovery' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/index.html" title="Home">Home</a></li>
+            <li class="{% if page.title == 'API Discovery - News and Analysis' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/blog.html" title="Home">News & Analysis</a></li>
+            <li class="{% if page.title == 'About API Discovery' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/about.html" title="About">About this Site</a></li>
+         </ul>
+        
+        <ul class="rss fr">
+            
+            <li class="sub-rss" style="padding-top: 5px;">         
+                <a href="http://apievangelist.com" title="Home" style="color:#000;">Return to API Evangelist >></a>
+            </li>          
+        </ul>
+
+    </div>
+
+    <div id="content" class="col-full">
+
+        <div id="main-sidebar-container">
+
+            <!-- #main Starts -->
+            <div id="main">      
+                                
+                <!-- Post Starts -->
+                <div class="post-1 post type-post hentry category-api-marketplace category-uncategorized">      
+
+                  {{ content }}
+
+                </div><!-- /.post -->
+
+            </div><!-- /#main -->
+
+            <div id="sidebar">
+                
+                {% if page.title == 'API Discovery' %}
+    
+                {% else %}
+                    <div class="widget widget_recent_entries"> 
+                        <center>      
+                             <p style="font-size: 16px;"><strong>API Discovery</strong></p>
+                            <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/api-discovery.png" width="275" />
+                        </center>
+                    </div>
+                {% endif %}
+                
+                 <div class="widget widget_recent_entries">  
+                     
+                    <!--- Begin Partners --->
+                    <script id="parterListingTemplate" type="text/template"> 
+                        {% raw  %}  
+                        <a href="{{url}}" target="_blank" title="{{title}}">
+                            <img src="{{logo}}" width="{{width}}" style="padding-bottom: {{paddingbottom}}px;" />
+                        </a>   
+                        {% endraw %}                                                                                                                    
+                    </script>  
+                     
+                    <script type="text/javascript">
+                        function listSponsors()
+                            {
+                            $.getJSON('/data/sponsors.json', function(data) {               
+                                 $.each(data['sponsors'], function(key, val) {                  
+                                    var template = $('#parterListingTemplate').html();
+                                    var html = Mustache.to_html(template, val);
+                                    $('#partnerListingContainer').append(html);
+                                    });         
+                                });             
+                            }    
+                    </script>
+               
+                    <h3>Partner Sites</h3>
+                    <div id="partnerListingContainer" align="center"><br /><br /> </div>
+                    
+                    <script type="text/javascript">
+                        listSponsors();
+                    </script>                    
+                        
+                </div>  
+                <!--- End Partners --->              
+            </div>
+
+        </div><!-- /#main-sidebar-container -->         
+
+    </div><!-- /#content -->
+
+    <div id="footer" class="col-full">
+
+        <div id="copyright" class="col-left">
+            <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>        
+        </div>
+
+        <div id="credit" class="col-right">
+    
+            <p><a href="http://kinlane.com/about/">About</a></p>    
+            <p>|</p>
+            <p><a href="http://theapistack.com">API Stack</a></p>   
+            <p>|</p>
+            <p><a href="http://apievangelist.com">API Evangelist</a></p>        
+            <p>|</p>
+            <p><a href="http://apivoice.com">API Voice</a></p>
+            <p>|</p>
+            <p><a href="http://hackweekends.com">Hack Weekends</a></p>  
+            <p>|</p>
+            <p><a href="http://kinlane.com/contact/">Contact</a></p>                
+        
+        </div>
+
+    </div><!-- /#footer  -->
+
+</div><!-- /#wrapper -->                  
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1119465-51']);
+  _gaq.push(['_setDomainName', 'apievangelist.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        
+  </body>
+</html>

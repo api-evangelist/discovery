@@ -1,0 +1,54 @@
+{
+    "sponsors": [
+       {
+            "title": "3Scale",
+            "url": "http://www.3scale.net",
+            "logo": "http://kinlane-productions.s3.amazonaws.com/api-service-providers/3scale-logo.jpg",
+            "width": "200",
+             "paddingbottom": "10"
+        },
+        {
+            "title": "APIhub",
+            "url": "http://www.apihub.com/",
+            "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/mulesoft/APIhub-by-mulesoft.png",
+            "width": "180",
+             "paddingbottom": "15"
+        },  
+        {
+            "title": "apiphany",
+            "url": "http://apiphany.com/",
+            "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/apiphany/apiphany-logo-blue-300.png",
+            "width": "150",
+            "paddingbottom": "35"
+        },                    
+        {
+            "title": "Intel",
+            "url": "http://cloudsecurity.intel.com/api-management",
+            "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/intel/intel-api-management-logo.png",
+            "width": "175",
+             "paddingbottom": "15"
+        },
+        {
+            "title": "ProgrammableWeb",
+            "url": "http://www.programmableweb.com/",
+            "logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist/programmableweb-logo.png",
+            "width": "150",
+             "paddingbottom": "10"
+        },                            
+        {
+            "title": "Singly",
+            "url": "http://www.singly.com/",
+            "logo": "http://kinlane-productions.s3.amazonaws.com/singly/singly-logo-horizontal.png",
+            "width": "170",
+             "paddingbottom": "10"
+        },                            
+        {
+            "title": "WSO2",
+            "url": "http://wso2.com/products/api-manager/",
+            "logo": "https://s3.amazonaws.com/kinlane-productions/api-service-providers/wso2/wso2-logo-white-800X360.jpg",
+            "width": "170",
+             "paddingbottom": "10"
+        }        
+               
+    ]
+}
