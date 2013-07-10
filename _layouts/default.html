@@ -1,6 +1,12 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+{% include top.html %}
+
+<body class="home blog two-col-left width-940 two-col-left-940">
+    
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+</body>
+</html>

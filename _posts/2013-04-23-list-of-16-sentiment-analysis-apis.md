@@ -1,11 +1,0 @@
----
-layout: post
-title: List of 16 Sentiment Analysis APIs
-url: http://blog.mashape.com/post/48757031167/list-of-16-sentiment-analysis-apis
-source: http://blog.mashape.com/post/48757031167/list-of-16-sentiment-analysis-apis
-domain: blog.mashape.com
-image: http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/7919_blog_mashape_com.png
----
-{% include JB/setup %}<p>The APIs below are a Sentiment Analysis subset group from that Machine Learning API list. Sentiment Analysis refers to “the application of natural language processing, computational linguistics, and text analytics to identify and extract subjective information in source materials.” We hope you’ll it find useful!TweetSentiments -  Returns the sentiment of Tweets.Two online APIs call the Twitter API to analyze Tweets from a given Twitter user or Tweets returned by a Twitter search query.</p>
-<center><p><a href="http://blog.mashape.com/post/48757031167/list-of-16-sentiment-analysis-apis" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
-

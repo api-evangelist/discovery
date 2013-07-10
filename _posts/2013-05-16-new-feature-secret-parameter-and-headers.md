@@ -1,11 +1,0 @@
----
-layout: post
-title: New Feature: Secret Parameter and Headers
-url: http://blog.mashape.com/post/50590118603/new-feature-secret-parameter-and-headers
-source: http://blog.mashape.com/post/50590118603/new-feature-secret-parameter-and-headers
-domain: blog.mashape.com
-image: http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/8826_blog_mashape_com.png
----
-{% include JB/setup %}<p>It’s been a while since we announced a new feature from Mashape, so we’re very excited to announce this one:  Secret Parameters and Headers for API providers.What is a Secret Parameter/Header?A Secret Parameter or Header are fixed key-value that is added to the request coming from the Mashape proxy to the API provider.Only API providers can set these values in their API.What is it useful for?</p>
-<center><p><a href="http://blog.mashape.com/post/50590118603/new-feature-secret-parameter-and-headers" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
-
