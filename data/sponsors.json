@@ -2,6 +2,7 @@
     "sponsors": [
        {
             "title": "3Scale",
+            "tagline": "API Management",
             "url": "http://www.3scale.net",
             "logo": "http://kinlane-productions.s3.amazonaws.com/api-service-providers/3scale-logo.jpg",
             "width": "200",
@@ -9,6 +10,7 @@
         },
         {
             "title": "APIhub",
+             "tagline": "API Repository",
             "url": "http://www.apihub.com/",
             "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/mulesoft/APIhub-by-mulesoft.png",
             "width": "180",
@@ -16,6 +18,7 @@
         },  
         {
             "title": "apiphany",
+             "tagline": "API Management",
             "url": "http://apiphany.com/",
             "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/apiphany/apiphany-logo-blue-300.png",
             "width": "150",
@@ -23,6 +26,7 @@
         },                    
         {
             "title": "Intel",
+            "tagline": "API Management",
             "url": "http://cloudsecurity.intel.com/api-management",
             "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/intel/intel-api-management-logo.png",
             "width": "175",
@@ -30,23 +34,26 @@
         },
         {
             "title": "ProgrammableWeb",
+            "tagline": "API Directory",
             "url": "http://www.programmableweb.com/",
             "logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist/programmableweb-logo.png",
             "width": "150",
              "paddingbottom": "10"
         },                            
         {
-            "title": "Singly",
-            "url": "http://www.singly.com/",
-            "logo": "http://kinlane-productions.s3.amazonaws.com/singly/singly-logo-horizontal.png",
-            "width": "170",
-             "paddingbottom": "10"
+            "title": "theRightAPI",
+            "tagline": "Discover,Test, and Monitor theRightAPI for You",
+            "url": "http://www.therightapi.com/",
+            "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/rightapi/theRightAPIlogo-whiteBkgrnd.png",
+            "width": "200",
+             "paddingbottom": "15"
         },                            
         {
             "title": "WSO2",
+            "tagline": "API Management",
             "url": "http://wso2.com/products/api-manager/",
             "logo": "https://s3.amazonaws.com/kinlane-productions/api-service-providers/wso2/wso2-logo-white-800X360.jpg",
-            "width": "170",
+            "width": "160",
              "paddingbottom": "10"
         }        
                
