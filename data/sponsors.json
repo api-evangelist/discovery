@@ -15,18 +15,10 @@
             "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/mulesoft/APIhub-by-mulesoft.png",
             "width": "180",
              "paddingbottom": "15"
-        },  
-        {
-            "title": "apiphany",
-             "tagline": "API Management",
-            "url": "http://bit.ly/14htE5E",
-            "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/apiphany/apiphany-logo-blue-300.png",
-            "width": "150",
-            "paddingbottom": "35"
-        },                    
+        },                     
         {
             "title": "Intel",
-            "tagline": "API Management",
+            "tagline": "Enterprise API Management",
             "url": "http://intel.ly/10rGPjU",
             "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/intel/intel-api-management-logo.png",
             "width": "175",
@@ -39,18 +31,10 @@
             "logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist/programmableweb-logo.png",
             "width": "150",
              "paddingbottom": "10"
-        },                            
-        {
-            "title": "theRightAPI",
-            "tagline": "Discover,Test, and Monitor theRightAPI for You",
-            "url": "http://bit.ly/14EZQyS",
-            "logo": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/rightapi/theRightAPIlogo-whiteBkgrnd.png",
-            "width": "200",
-             "paddingbottom": "15"
-        },                            
+        },                                                      
         {
             "title": "WSO2",
-            "tagline": "API Management",
+            "tagline": "Open Source API Management",
             "url": "http://bit.ly/17KyhtZ",
             "logo": "https://s3.amazonaws.com/kinlane-productions/api-service-providers/wso2/wso2-logo-white-800X360.jpg",
             "width": "160",
