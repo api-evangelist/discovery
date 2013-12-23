@@ -127,7 +127,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-de
 
 .post  { margin: 0 0 40px;}
 
-.post .title, .page .title  { font:normal bold 24px/24px Arial, Helvetica, sans-serif;position:relative; margin: 0 0 0px; }
+.post .title, .page .title  { font:normal bold 24px/24px Arial, Helvetica, sans-serif; margin: 0 0 0px; }
 .page .title   { margin: 0 0 0px 0; }
 .post .title a:link, .post .title a:visited,
 .page .title a:link, .page .title a:visited{ color:#222; }
@@ -305,3 +305,21 @@ p.note { border-top:1px solid #efe3ae; border-bottom:1px solid #efe3ae; backgrou
 .disabled a:hover {
   background-color: transparent;
 }
+
+
+.toolbar{
+    float:right; 
+    padding-top: 10px;  
+}
+.toolbar li{
+    display: inline;
+    list-style: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.toolbar li a{
+    color:#000;
+    font-size: 14px;
+} 
