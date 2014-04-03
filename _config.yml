@@ -1,4 +1,6 @@
-title : API Evangelist
+title : API Discovery
+
+markdown: kramdown
 
 safe: true
 lsi: false
