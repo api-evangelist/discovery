@@ -7,21 +7,13 @@
             "logo": "http://kinlane-productions.s3.amazonaws.com/api-service-providers/3scale-logo.jpg",
             "width": "200",
              "paddingbottom": "10"
-        },                  
+        },                                                           
         {
-            "title": "ProgrammableWeb",
-            "tagline": "API Directory",
-            "url": "http://bit.ly/10rGRbg",
-            "logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist/programmableweb-logo.png",
-            "width": "150",
-             "paddingbottom": "10"
-        },                                                      
-        {
-            "title": "WSO2",
-            "tagline": "Open Source API Management",
-            "url": "http://bit.ly/17KyhtZ",
-            "logo": "https://s3.amazonaws.com/kinlane-productions/api-service-providers/wso2/wso2-logo-white-800X360.jpg",
-            "width": "160",
+            "title": "Restlet",
+            "tagline": "Comprehensive solution for all your RESTful web API needs.",
+            "url": "http://bit.ly/1sgwGpq",
+            "logo": "https://s3.amazonaws.com/kinlane-productions/api-service-providers/api-spark/Logo-Restlet-Horizontal-800x225.png",
+            "width": "200",
              "paddingbottom": "10"
         }        
                
