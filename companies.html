@@ -2,19 +2,57 @@
 layout: page
 title: Companies
 ---
+<style>
+
+    .baaslistingcontainer{
+        padding-left: 10px; 
+        padding-right: 10px; 
+        width:550px;
+    }
+    .baaslisting{
+        padding-left: 30px;
+    }  
+    .baaslisting li{
+        list-style: none; 
+        padding: 30px; 
+        border: 0px solid #000;
+    }       
+</style>
+
+<ul class="toolbar">
+    <li>{"<a href="https://raw.github.com/kinlane/api-deployment/gh-pages/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
+    <li>{"<a href="https://gist.github.com/kinlane/5992075" title="Script" target="_blank">SCRIPT</a>"}</li>
+</ul>
+
+<h1 class="title">API Discovery Companies</h1>
+
 {% raw  %}
 <script id="companyListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
-        <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
-        <a href="companies-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="companies-detail.html?id={{id}}">details</a>.
-    </li>                                                                                               
+    <tr>
+        <td align="left" valign="top">
+            <a href="" id="home-logo-link-{{id}}"><img src="{{logo}}" width="{{logo_width}}" align="left" style="padding: 15px;" /></a>
+            <a href="" id="home-name-link-{{id}}" style="color: #000;"><strong>{{name}}</strong></a><br />{{summary}}
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="middle">            
+            <a href="index.html" target="_blank" title="Website" id="home-icon-{{id}}"><img id="home-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="25" style="margin-bottom: 5px; padding:15px;" /></a>
+            <a href="index.html" target="_blank" title="Blog" id="blog-icon-{{id}}"><img id="blog-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="25" style="padding:15px;margin-bottom: 3px; " /></a>
+            <a href="index.html" target="_blank" title="Blog RSS" id="blogrss-icon-{{id}}"><img id="blogrss-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="30" style="padding:15px;" /></a>
+            <a href="index.html" target="_blank" title="Twitter" id="twitter-icon-{{id}}"><img id="twitter-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="30" style="padding:15px;margin-bottom: 3px; " /></a>
+            <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="35" style="padding:15px;" /></a>            
+       </td>
+    </tr> 
+    <tr>
+        <td colspan="3"><hr /></td>
+    </tr>                                                                                                   
 </script>
 {% endraw %}
 
-<p><a id="jsonlink" href="data/companies.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
-<h1 class="title">API Management Companies</h1>
-<div style="padding-left: 10px; padding-right: 10px; width:550px;">
-     <ul id="companyListing" style="padding-left: 30px;"></ul>
+<div>
+     <p align="center"><hr /></p>
+     <table id="companyListing" style="padding-left: 35px;" width="90%" cellpadding="1" cellspacing="1"></table>
 </div>  
 
 <script type="text/javascript">
@@ -25,13 +63,30 @@ function listCompanies()
          $.each(data['company'], function(key, val) {
             var template = $('#companyListingTemplate').html();
             var html = Mustache.to_html(template, val);
-            $('#companyListing').append(html);                          
+            $('#companyListing').append(html);     
+                        
+            id = val['id'];
+            website = val['website'];
+            
+            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }               
+            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }              
+            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }              
+                                    
+            blog = val['blog'];
+            if(blog.length>0){ document.getElementById("blog-icon-"+id).href=blog; } else { document.getElementById("blog-icon-img-"+id).style.display='none'; }
+                            
+            blogrss = val['blogrss'];
+            if(blog.length>0){ document.getElementById("blogrss-icon-"+id).href=blogrss; } else { document.getElementById("blogrss-icon-img-"+id).style.display='none'; }
+            
+            twitter = val['twitter'];
+            if(twitter.length>0){ document.getElementById("twitter-icon-"+id).href=twitter; } else { document.getElementById("twitter-icon-img-"+id).style.display='none'; }
+            
+            github = val['github'];
+            if(github.length>0){ document.getElementById("github-icon-"+id).href=github; } else { document.getElementById("github-icon-img-"+id).style.display='none'; }
+                        
+                                 
             });
         });
     } 
-listCompanies();
-</script>
-
-<script type="text/javascript">
 listCompanies();
 </script>
