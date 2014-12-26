@@ -1,25 +1,22 @@
-title : API Discovery
-
-markdown: kramdown
-
-safe: true
-lsi: false
-pygments: true
-auto: true
-
-source: api-discovery
-destination: api-discovery
+title:        {"Discovery":"API Evangelist"}
+url:          http://discovery.apievangelist.com
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 20
-paginate_path: "/blog/page:num"
+paginate: 50
+paginate_path: "/news/page:num"
 
 production_url : http://discovery.apievangelist.com
 
 BASE_PATH : http://discovery.apievangelist.com
 
-archive_path: /archive.html
 categories_path : /categories.html
 tags_path : /tags.html
