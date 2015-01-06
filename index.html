@@ -3,7 +3,6 @@ layout: page
 title: API Discovery
 ---
 
-<h1 class="title">API Discovery</h1>
 <p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png" width="200" align="right" style="padding: 15px;" /></p>
 <p>In the early days of the web API movement (2005-2010), to find APIs, you went to ProgrammableWeb, which was the only site on the web that was exclusively dedicated to APIs.  Discovery happened via the PW directory and constant stream of news and analysis from the space.</p>  
 
@@ -12,26 +11,3 @@ title: API Discovery
 <p>Among the API tech sector there is always discussion around the need for programatic discovery in API the API space.  Something that uses a WADL-like approach to describing APIs, so that the next generation of API directories, IDEs and other systems can discover, understand, monitor and integrate with APIs--with less human involvement.  In short, this vision hasn't been achieved.</p>
 
 <p>API discovery has two sides, finding the APIs you need and having your API be found.  As part of API Evangelist, I'd like help pay attention to both sides of this coin, and bring together the best news, analysis, tools and services for API Discovery.</p>
-
-<hr />                
-              
-{% for post in site.posts limit:2 %}
-<div class="post">
-    
-    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><h4><strong>{{ post.title }}</strong></h4></a> (<i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }}</span></strong></i>)
-    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}"><img src="{{ post.image }}" width="175" align="left" style="padding: 15px;" /></a></p>
-    <p>{{ post.content | strip_html | truncatewords: 100 }}...<a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000; font-weight: bold;">read more</a>.</p>
-    <br />
-    <hr />     
-   
-</div> 
-{% endfor %}  
-
-<br /><br />
-<!-- 3scale -->
-<p align="center">
-<a href="http://3scale.net" target="_blank" title="APIs From 3Scale">
-    <img src="https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png" width="300" style="padding-bottom: 15px;" />
-</a>        
-</p>
-<!-- 3scale -->  
