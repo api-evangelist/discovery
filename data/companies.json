@@ -12,7 +12,37 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-commons-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://pbs.twimg.com/profile_images/378800000675657712/96b8a989191bcf65afb250ca7649afc0_normal.png",
-		"tags": "API Copyright,API Discovery,API-Discovery"
+		"tags": "API Copyright,API Discovery,API Discovery"
+	},
+	{
+		"id": "2211",
+		"name": "API Rating Agency",
+		"summary": "An API is more than an Application Programming Interface itrsquos a contract We curate and provide technical financial legal social and insiders infos about public APIs to restore trust between developers and API providers",
+		"details": "An API is more than an Application Programming Interface itrsquos a contract We curate and provide technical financial legal social and insiders infos about public APIs to restore trust between developers and API providers",
+		"website": "http://apiratings.org/",
+		"twitter": "https://twitter.com/API500",
+		"github": "",
+		"blog": "http://api500.com/",
+		"blogrss": "http://api500.com/rss",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-rating-agency-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://pbs.twimg.com/profile_images/3634895492/70d750aa169f7f3258ef805454e271de_normal.png",
+		"tags": "API Discovery,Rating"
+	},
+	{
+		"id": "3",
+		"name": "Apigee",
+		"summary": "Apigee is a provider of API technology and services for enterprises and developers Providing a range of solutions from entry level tools for exploring APIs with a console and navigating OAuth to enterprise tools for managing OAuth Keys and platform for driving developer adoption while understanding usage managing traffic and scaling an API platform nbspApigee provides solutions for enterprises lik",
+		"details": "Apigee is a provider of API technology and services for enterprises and developers Providing a range of solutions from entry level tools for exploring APIs with a console and navigating OAuth to enterprise tools for managing OAuth Keys and platform for driving developer adoption while understanding usage managing traffic and scaling an API platform nbspApigee provides solutions for enterprises like Comcast GameSpy TransUnion Interactive Guardian Life and Constant Contact and thousands of developers use Apigees technologyApigee provides resources to help you understand best practices avoid common pitfalls develop your strategy and learn to drive your developer community Apigee also provides articles white papers and other resources to help you deliver your API",
+		"website": "https://apigee.com",
+		"twitter": "https://twitter.com/Apigee",
+		"github": "https://github.com/apigee",
+		"blog": "https://blog.apigee.com/front",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/apigee-logo.gif",
+		"logo_width": "175",
+		"screenshot": "http://pbs.twimg.com/profile_images/378800000508262189/6f72b788786c25b956aac477099a23ed_normal.png",
+		"tags": "API Deployment,API Deployment,API Discovery,API Gateway,API Management,Apigee,Authentication,BaaS,Security,Utility"
 	},
 	{
 		"id": "95",
@@ -27,7 +57,22 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apis-io.png",
 		"logo_width": "150",
 		"screenshot": "https://avatars.githubusercontent.com/u/1485890?v=3",
-		"tags": "API Discovery,API-Discovery,Directory,Search-Stack"
+		"tags": "API Discovery,API Discovery,Directory,Search-Stack"
+	},
+	{
+		"id": "2949",
+		"name": "APIs.json",
+		"summary": "APIs are becoming a crucial part of the Web Unfortunately however it remains very difficult to determine the location of these APIs on servers around the Web The only way to discover APIs and their properties is via human driven search through public search engines or in hand curated API Directory listings While these methods work neither can scale to the potentially hundreds of thousands and mill",
+		"details": "APIs are becoming a crucial part of the Web Unfortunately however it remains very difficult to determine the location of these APIs on servers around the Web The only way to discover APIs and their properties is via human driven search through public search engines or in hand curated API Directory listings While these methods work neither can scale to the potentially hundreds of thousands and millions of APIs which will be published over the next few years",
+		"website": "http://apisjson.org/",
+		"twitter": "https://twitter.com/APIsjson",
+		"github": "",
+		"blog": "http://apisjson.org/blog/",
+		"blogrss": "http://apisjson.org/blog.xml",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apisdotjson.png",
+		"logo_width": "150",
+		"screenshot": "http://pbs.twimg.com/profile_images/468795554391003136/HF-f9qkS_normal.png",
+		"tags": "API Discovery"
 	},
 	{
 		"id": "2953",
@@ -42,7 +87,37 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/managed-methods-logo.png",
 		"logo_width": "225",
 		"screenshot": null,
-		"tags": "API Deployment,API Deployment,API-Discovery"
+		"tags": "API Deployment,API Deployment,API Discovery"
+	},
+	{
+		"id": "9",
+		"name": "Mashape API Hub",
+		"summary": "Mashape provides tools that enable developers to quickly deliver and consume APIs and offers a marketplace for listing APIs nbspMashape provides tools for testing your API code for generation of custom errors components for user management and standardized API code language libraries in multiple languages nbspOnce your API is ready for prime time Mashape provides a marketplace for listing your API",
+		"details": "Mashape provides tools that enable developers to quickly deliver and consume APIs and offers a marketplace for listing APIs nbspMashape provides tools for testing your API code for generation of custom errors components for user management and standardized API code language libraries in multiple languages nbspOnce your API is ready for prime time Mashape provides a marketplace for listing your API letting developers to easily discover and begin hacking with your API in a social API community environment",
+		"website": "http://mashape.com",
+		"twitter": "https://twitter.com/mashape",
+		"github": "https://github.com/njvitto",
+		"blog": "http://blog.mashape.com/",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/mashape-logo.png",
+		"logo_width": "175",
+		"screenshot": "http://pbs.twimg.com/profile_images/455899380600426497/E83obfqu_normal.png",
+		"tags": "API Directory,API Discovery,API Integration,API Management,API Operations"
+	},
+	{
+		"id": "1",
+		"name": "Mashery",
+		"summary": "Masherys API management tools and strategic services help companies connect with customers and partners in a changing digital world by extending reach across devices markets and the Web Mashery leads the industry with a holistic approach for API initiatives ndash from setting platform strategy and measuring business objectives to the heavy lifting of providing and managing infrastructure to facili",
+		"details": "Masherys API management tools and strategic services help companies connect with customers and partners in a changing digital world by extending reach across devices markets and the Web Mashery leads the industry with a holistic approach for API initiatives ndash from setting platform strategy and measuring business objectives to the heavy lifting of providing and managing infrastructure to facilitating relationships with our 150000 strong network of Web and mobile application developers",
+		"website": "http://mashery.com",
+		"twitter": "https://twitter.com/masherydev",
+		"github": "https://github.com/mashery",
+		"blog": "http://www.mashery.com/blog",
+		"blogrss": "http://feeds.feedburner.com/MasheryBlog",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/mashery-logo.png",
+		"logo_width": "200",
+		"screenshot": "http://pbs.twimg.com/profile_images/491345315388092416/ruEA12Qs_normal.jpeg",
+		"tags": "API Definitions,API Design,API Discovery,API Management"
 	},
 	{
 		"id": "1918",
@@ -57,7 +132,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/public-apis-com-logo.png",
 		"logo_width": "200",
 		"screenshot": null,
-		"tags": "API Discovery,API-Discovery,Mashape"
+		"tags": "API Discovery,API Discovery,Mashape"
 	},
 	{
 		"id": "1687",
@@ -72,6 +147,21 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/therightapi-logo-2.png",
 		"logo_width": "225",
 		"screenshot": "http://pbs.twimg.com/profile_images/2985870909/6a380bb9a589bb4e82567f5a9c5e074b_normal.jpeg",
-		"tags": "API Discovery,API Integration,API Monitoring,API Operations,API Testing,API-Discovery"
+		"tags": "API Discovery,API Discovery,API Integration,API Monitoring,API Operations,API Testing"
+	},
+	{
+		"id": "3460",
+		"name": "storyteller.io",
+		"summary": "The hardest part of working with APIs can be the differences between them Wersquore cataloging amp normalizing these differences to keep you focused on the data In building our API catalog our mission has been to restore focus on data making it easy to explore and preview API resources Actual integration however is still another matter",
+		"details": "The hardest part of working with APIs can be the differences between them Wersquore cataloging amp normalizing these differences to keep you focused on the data In building our API catalog our mission has been to restore focus on data making it easy to explore and preview API resources Actual integration however is still another matter",
+		"website": "https://www.storyteller.io/",
+		"twitter": "https://twitter.com/storytellerhq",
+		"github": "",
+		"blog": "http://blog.storyteller.io/",
+		"blogrss": "http://blog.storyteller.io/rss",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storyteller-io-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://pbs.twimg.com/profile_images/431227052390248448/nOyAFeUx_normal.png",
+		"tags": "Aggregation,API Discovery,API Integration"
 	}
 ]
