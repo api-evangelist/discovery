@@ -1,2 +1,101 @@
 [
+	{
+		"building_block_id": "1010",
+		"building_block_category_id": "119",
+		"name": "APIs.io",
+		"about": "<p>APIs.io is an open source search, driven using the APIs.json discovery format, allowing API providers to manage the discovery index of their own APIs, while allowing consumers to search, discover, and build collections of APIs they use.</p>",
+		"category_id": "119",
+		"category": "Search",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/apis-io-logo.png",
+		"image_width": "225",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "523",
+		"building_block_category_id": "78",
+		"name": "API Directory",
+		"about": "<p>ProgrammableWeb is the OG (<span>Original Gangster) when it comes to API directories. API directories allow for submissions and curation of APIs, then enable users to search and browse by keywords and tags. API directories will have their place, much like web, application and other common directories, but will quickly be outpaced by other approaches to API discovery. &nbsp;</span></p>",
+		"category_id": "78",
+		"category": "Discovery",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-directory.png",
+		"image_width": "150",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "524",
+		"building_block_category_id": "78",
+		"name": "API Hub",
+		"about": "<p>In the last couple years, we've seen two companies step up to iterate on the API directory model provided by ProgrammableWeb. First Mashape launched with their API marketplace, then in 2012 API hub emerged from software provider Mulesoft. API hubs and marketplaces provide the directory model introduced by ProgrammableWeb, but provide other management and profile tools for both API proviers and consumers. &nbsp;These companies are just getting going, but already offer some very interesting approaches to API discovery that go beyond just finding your API(s).</p>",
+		"category_id": "78",
+		"category": "Discovery",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hub.png",
+		"image_width": "150",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "525",
+		"building_block_category_id": "78",
+		"name": "IDE Extension",
+		"about": "<p>A new approach to API discovery being developed by the pioneering API providers like Amazon, Google and Ebay is using integrated development environment (IDE) extensions, particularly for Eclipse. &nbsp;These Eclipse extensions or add-ons allow developers to quickly discovery and understand API endpoints. While the current approaches to API discovery using IDE extensions is focused on single provider API discovery, the approach can easily be applied to a wide range of APIs or a particular niche of API endpoints.</p>",
+		"category_id": "78",
+		"category": "Discovery",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ide.png",
+		"image_width": "150",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "526",
+		"building_block_category_id": "78",
+		"name": "API Explorer",
+		"about": "<p>API Explorers, sometimes called consoles are designed to provide an interactive interface for developers to discover, explore, make calls and see responses in an interactive way. Many API explorers are launched by individual API providers allowing consumers to discover and interact with APIs withi their ecosystem. However a handful of providers also provide this functionality across multiple API providers, enabling a much more discovery style interface in addition to the live, hands-on interaction.</p>",
+		"category_id": "78",
+		"category": "Discovery",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compass.png",
+		"image_width": "150",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "796",
+		"building_block_category_id": "117",
+		"name": "ProgrammableWeb",
+		"about": null,
+		"category_id": "117",
+		"category": "Directory",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "797",
+		"building_block_category_id": "117",
+		"name": "Mashape",
+		"about": null,
+		"category_id": "117",
+		"category": "Directory",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "794",
+		"building_block_category_id": "118",
+		"name": "Crunchbase",
+		"about": null,
+		"category_id": "118",
+		"category": "Business",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "795",
+		"building_block_category_id": "118",
+		"name": "AngelList",
+		"about": null,
+		"category_id": "118",
+		"category": "Business",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "0"
+	}
 ]
