@@ -1,9 +1,9 @@
 [
 	{
-		"building_block_id": "1010",
-		"building_block_category_id": "119",
+		"building_block_id": "CBc5t9gyKMIF1s02xCX4EWwcTchMV2k8KHTwfULmM83p4Sa9UkkycZQANttk6RZHo6DAXitCgk5tc9ykwJ7utQ117117",
+		"building_block_category_id": "UKUFBaSR2xEeQihgsiBmpKkPGt2123kYc116zscQXyqjFWYCcjLtEQ0PS1Mq95ZRoWiyL4xrIhKa11644VE116JXpO4d1Q117117",
 		"name": "APIs.io",
-		"about": "<p>APIs.io is an open source search, driven using the APIs.json discovery format, allowing API providers to manage the discovery index of their own APIs, while allowing consumers to search, discover, and build collections of APIs they use.</p>",
+		"about": "APIs.io is an open source search, driven using the APIs.json discovery format, allowing API providers to manage the discovery index of their own APIs, while allowing consumers to search, discover, and build collections of APIs they use.",
 		"category_id": "119",
 		"category": "Search",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/apis-io-logo.png",
@@ -11,10 +11,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "523",
-		"building_block_category_id": "78",
+		"building_block_id": "SnLIe2zSBvUmk5LdLY820EBlEednD6QZmicHu4WVwsZtUxy4hRzx0lOmPU116t1161239Oxa0fuVo6JYxOLQRnJl9Wug117117",
+		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
 		"name": "API Directory",
-		"about": "<p>ProgrammableWeb is the OG (<span>Original Gangster) when it comes to API directories. API directories allow for submissions and curation of APIs, then enable users to search and browse by keywords and tags. API directories will have their place, much like web, application and other common directories, but will quickly be outpaced by other approaches to API discovery. &nbsp;</span></p>",
+		"about": "API directories allow for the submissions and curation of APIs, then enable users to search and browse by keywords and tags, in many areas.",
 		"category_id": "78",
 		"category": "Discovery",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-directory.png",
@@ -22,10 +22,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "524",
-		"building_block_category_id": "78",
+		"building_block_id": "AhzCm2gctmk9im2ta6ZYng9I49bqS4CmqxUpV7h1166e5JFKAHxGiPHQGTKUf8pXe116xZYeNagH1XaTpXSZUAPaDA117117",
+		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
 		"name": "API Hub",
-		"about": "<p>In the last couple years, we've seen two companies step up to iterate on the API directory model provided by ProgrammableWeb. First Mashape launched with their API marketplace, then in 2012 API hub emerged from software provider Mulesoft. API hubs and marketplaces provide the directory model introduced by ProgrammableWeb, but provide other management and profile tools for both API proviers and consumers. &nbsp;These companies are just getting going, but already offer some very interesting approaches to API discovery that go beyond just finding your API(s).</p>",
+		"about": "API directories usually span many categories, where hubs often focus on specific area like telco, or healthcare, providing a single hub for discovering APIs.",
 		"category_id": "78",
 		"category": "Discovery",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hub.png",
@@ -33,10 +33,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "525",
-		"building_block_category_id": "78",
+		"building_block_id": "I123qzD5116XhM3k4D43TgLHYLWI1160TZy91230zyA123RXdDlxsI0haYUkXZ18gyNuQprWXANrQr1jYMYAze5fpuwvztnw117117",
+		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
 		"name": "IDE Extension",
-		"about": "<p>A new approach to API discovery being developed by the pioneering API providers like Amazon, Google and Ebay is using integrated development environment (IDE) extensions, particularly for Eclipse. &nbsp;These Eclipse extensions or add-ons allow developers to quickly discovery and understand API endpoints. While the current approaches to API discovery using IDE extensions is focused on single provider API discovery, the approach can easily be applied to a wide range of APIs or a particular niche of API endpoints.</p>",
+		"about": "integrated development environment (IDE) extensions or add-ons that allow developers to quickly discovery and understand API endpoints.",
 		"category_id": "78",
 		"category": "Discovery",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ide.png",
@@ -44,10 +44,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "526",
-		"building_block_category_id": "78",
+		"building_block_id": "sW8116WGXIQvBSa123rEmQggZt8Uw5l9DeNOCikZTfDTNNhVyEZykGSh9M1m5dSkA5Eaw3zKRQNI98ioEQs5OvN123bA117117",
+		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
 		"name": "API Explorer",
-		"about": "<p>API Explorers, sometimes called consoles are designed to provide an interactive interface for developers to discover, explore, make calls and see responses in an interactive way. Many API explorers are launched by individual API providers allowing consumers to discover and interact with APIs withi their ecosystem. However a handful of providers also provide this functionality across multiple API providers, enabling a much more discovery style interface in addition to the live, hands-on interaction.</p>",
+		"about": "Sometimes also called consoles are designed to provide an interactive interface for developers to discover, explore, make calls and see responses in an interactive way. ",
 		"category_id": "78",
 		"category": "Discovery",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compass.png",
@@ -55,10 +55,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "796",
-		"building_block_category_id": "117",
+		"building_block_id": "FPmNwUOa3GCY636O7XMpG02nyyrzxyt88c75huaWutMPU8wlu5H6eZ8QEsaQdNkrTiuVCA90FcvAW2GCIeIRDg117117",
+		"building_block_category_id": "twc123hJWSjrdOiPxtkgsZwXsfjwuv6xJVVIjj123UADRFejgz5tTiDTFlxWz68DiT9KmVrf5ekpsrxUpWTkT1161KmA117117",
 		"name": "ProgrammableWeb",
-		"about": null,
+		"about": "The original API directory created by John Musser in 2005, to provide a single, searchable directory of common public APIs.",
 		"category_id": "117",
 		"category": "Directory",
 		"image": "",
@@ -66,10 +66,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "797",
-		"building_block_category_id": "117",
+		"building_block_id": "QSVADlt116ohALmZhMojFzgT9vdAvZgZXIxDX116ZeWUMh7mpXqxYRZlH4bg7vVueUAcwQxYMDTXWdWCDh0oqEUT123w117117",
+		"building_block_category_id": "twc123hJWSjrdOiPxtkgsZwXsfjwuv6xJVVIjj123UADRFejgz5tTiDTFlxWz68DiT9KmVrf5ekpsrxUpWTkT1161KmA117117",
 		"name": "Mashape",
-		"about": null,
+		"about": "An API directory born out of the API management platform Mashape, providing a directory of Mashape clients APIs.",
 		"category_id": "117",
 		"category": "Directory",
 		"image": "",
@@ -77,10 +77,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "794",
-		"building_block_category_id": "118",
+		"building_block_id": "aLBqSwlW9gHGvviGze08GinZq3123RcJ5116Q2xBqPLkhc2Y2sES9BcSWTy6U6C4avX9CpeKuhb5U0dyl411aDHf8Q117117",
+		"building_block_category_id": "JXKipCnQKJ116UVCgn65LMCbCsCMNqnxMOlVeNvWlOZOc43YG5lHEjO116cazQF0pE7YIfZ4116xf123JjWdswIs6C7JOw117117",
 		"name": "Crunchbase",
-		"about": null,
+		"about": "A directory of companies that is curated by Techcrunch, and allows an approach to listing companies who have APIs.",
 		"category_id": "118",
 		"category": "Business",
 		"image": "",
@@ -88,10 +88,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "795",
-		"building_block_category_id": "118",
+		"building_block_id": "9CqewpDK3L5w6c2FYhy3LwnXVVFChuSw123Nf6iLQfMipLghSV2sxOKRrePiS83v5I9qXfcxnwh116CbW1jHzkcg5Q117117",
+		"building_block_category_id": "JXKipCnQKJ116UVCgn65LMCbCsCMNqnxMOlVeNvWlOZOc43YG5lHEjO116cazQF0pE7YIfZ4116xf123JjWdswIs6C7JOw117117",
 		"name": "AngelList",
-		"about": null,
+		"about": "Like Crunchbase, AngelList is a directory of companies, but also provides a way to showcase companies who have APIs.",
 		"category_id": "118",
 		"category": "Business",
 		"image": "",
