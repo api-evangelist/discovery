@@ -1,13 +1,112 @@
 ---
 layout: page
-title: API Discovery Research
+title: API Discovery
 ---
+<p style="font-size: 12px; padding:5px;">
+  <img src="{{ site.project_image }}" align="right" width="125" style="padding: 10px;" />
+  {{ site.project_summary }}
+</p>
 
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png" alt="" width="200" align="right" /></p>
-<p>This is one of my API research sites, focused specifically on API discovery. My name is <a href="http://kinlane.com">Kin Lane</a>, and I am the <a href="http://apievangelist.com/">API Evangelist</a>, working as hard as I can to understand the world of the Application Programming Interfaces, widely called an API. This network of API research projects all run on Github, and is my real-time workbench, which means there is a lot of finished work present, but occasionally you will also come across areas projects that are unfinished--you have stumbled in my API discovery research, you will find the main <a href="http://apievangelist.com/">API Evangelist site over here</a>, with other links to my work.</p>
-<p>This site is where I publish news that I have read, stories I&rsquo;ve published, company I&rsquo;ve profiled, and valuable tools I&rsquo;m stumbled on across while researching API discovery. Finding APIs, and having your APIs found is a pretty significant pain point, and in the last ten years, little has been done to provide adequate solutions. API discovery is an area I've been monitoring, ultimately have been unsatisfied with what I've seen, I've take matters into my own hands, and created <a href="http://apisjson.org">APIs.json</a>, a machine readable API discovery format, any API provider can use to describe their APIs.</p>
-<p>There are several API management companies, including Apigee, Mashery, and Mashape who have put forth API discovery solutions, and while these offerings are valuable, I feel they lack the openness necessary to truly move the API space, and the API discovery conversation forward. APIs.json was created to help make sense of the API space, in partnership with 3Scale API management infrastructure, CEO Steve Willmott (<a href="https://twitter.com/njyx">@njyx</a>). Together we are working to define as much of the public APIs space as possible using APIs.json, and encourage the development of open tooling around the format, with the first major addition being an open source API search engine called, <a href="http://apis.io/">APIs.io</a></p>
-<p>Next I am working with other providers like Socrata, WSO2, and others to develop additional tooling, to serve all levels of the API sector. I do not feel API discovery is something that simply happens via an <a href="http://www.programmableweb.com/">API directory like ProgrammableWeb</a>, or even via <a href="http://apis.io">API search engines like APIs.io</a>--in the future API discovery will also occur in the browser, via our IDEs, and seamlessly within modern clients. In 2015, you'll see many more APIs.json driven efforts to help alleviate API discovery pain, and we hope the format, and supporting open tooling will stimulate other complimentary, or even competing efforts. API discovery is long overdue for some investment by the community, helping us get past some of our PTSD of the SOA era--we can do it!</p>
-<p><a href="https://creativecommons.org/licenses/by/3.0/us/">All my research is openly licensed CC-BY</a>, and is meant to help grow the awareness around healthy API discovery practices. I try to be as fair as I can when covering companies, individuals, and the tools they provide, but ultimately you will notice I have my favorites, and there are some areas I only touch on lightly, for a variety of personal reasons. I try to stay as neutral as I can when it comes to technological dogma, and company allegiance, but after almost five years, I have some pretty strong opinions, and can&rsquo;t help but try and steer, and influence things in my own unique way. ;-)</p>
+<center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 85%;" /></center>
+<div class="row" style="vertical-align: top;" align="center">
 
-<p>Thanks for reading!</p>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
+    <ul class="featurelist">
+      <li><a href="http://apis.how/zu8ty0v34u">APIs.json</a></li>
+      <li><a href="http://apis.how/pufzfljcge">APIs.io</a></li>
+    </ul>
+
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist">
+      {% for post in site.posts limit:2 %}
+        <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+
+    <script type="text/javascript">
+      $url = 'http://apievangelist.com/blog.xml';
+      var $listcount = 0;
+      $.get($url, function (data) {
+          $(data).find("item").each(function () {
+              var el = $(this);
+              $title = el.find("title").text();
+              $link = el.find("link").text();
+              if($listcount<2){
+                $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+                $('#rssNews').append($listitem);
+                }
+              $listcount++;
+          });
+      });
+    </script>
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong><a href="http://apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist" id="rssNews"></ul>
+
+  </div>
+</div>
+<center><hr style="padding: 5px; margin: 5px; width: 85%;" /></center>
+
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="#"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-101.jpg" width="45" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;Learn The Basics From This Research</strong></a></li>
+    </ul>
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://patents.apievangelist.com"><strong>Visit My Research On API Patents&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://bit.ly/1ISZaev">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pdf.png" width="22" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;&nbsp;View the PDF of This Research</strong></a></li>
+    </ul>
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://client.apievangelist.com"><strong>Visit My Research Around API Clients&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-journey.png" width="25" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;Take a Journey Through Research</strong></a></li>
+    </ul>
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://ide.apievangelist.com"><strong>Visit My Research On API IDEs&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
