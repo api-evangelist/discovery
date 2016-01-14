@@ -1,4 +1,4 @@
-title:        {"Discovery":"API Evangelist"}
+title:        API Discovery
 url:          http://discovery.apievangelist.com
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-discovery.png
 logo_width:   80
@@ -81,6 +81,15 @@ navigation:
     label2: JSON
     link2: /data/tools.json
     size2: 60
+    padding: 0
+    decorate: 0
+  - label1: (Take a Journey)
+    link1: /journey/index.html
+    size1: 70
+    extend: 0
+    label2:
+    link2:
+    size2: 0
     padding: 0
     decorate: 0
   - label1: Return to API Evangelist
