@@ -1,16 +1,5 @@
 [
 	{
-		"building_block_id": "CBc5t9gyKMIF1s02xCX4EWwcTchMV2k8KHTwfULmM83p4Sa9UkkycZQANttk6RZHo6DAXitCgk5tc9ykwJ7utQ117117",
-		"building_block_category_id": "UKUFBaSR2xEeQihgsiBmpKkPGt2123kYc116zscQXyqjFWYCcjLtEQ0PS1Mq95ZRoWiyL4xrIhKa11644VE116JXpO4d1Q117117",
-		"name": "APIs.io",
-		"about": "APIs.io is an open source search, driven using the APIs.json discovery format, allowing API providers to manage the discovery index of their own APIs, while allowing consumers to search, discover, and build collections of APIs they use.",
-		"category_id": "119",
-		"category": "Search",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/apis-io-logo.png",
-		"image_width": "225",
-		"sort_order": "0"
-	},
-	{
 		"building_block_id": "SnLIe2zSBvUmk5LdLY820EBlEednD6QZmicHu4WVwsZtUxy4hRzx0lOmPU116t1161239Oxa0fuVo6JYxOLQRnJl9Wug117117",
 		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
 		"name": "API Directory",
@@ -19,6 +8,17 @@
 		"category": "Discovery",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-directory.png",
 		"image_width": "150",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "CBc5t9gyKMIF1s02xCX4EWwcTchMV2k8KHTwfULmM83p4Sa9UkkycZQANttk6RZHo6DAXitCgk5tc9ykwJ7utQ117117",
+		"building_block_category_id": "UKUFBaSR2xEeQihgsiBmpKkPGt2123kYc116zscQXyqjFWYCcjLtEQ0PS1Mq95ZRoWiyL4xrIhKa11644VE116JXpO4d1Q117117",
+		"name": "APIs.io",
+		"about": "APIs.io is an open source search, driven using the APIs.json discovery format, allowing API providers to manage the discovery index of their own APIs, while allowing consumers to search, discover, and build collections of APIs they use.",
+		"category_id": "119",
+		"category": "Search",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/apis-io-logo.png",
+		"image_width": "225",
 		"sort_order": "0"
 	},
 	{
@@ -94,6 +94,17 @@
 		"about": "Like Crunchbase, AngelList is a directory of companies, but also provides a way to showcase companies who have APIs.",
 		"category_id": "118",
 		"category": "Business",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "ulhka7ijF0NMQx9l6OdZix14R3xfnXi6sdLInztjoUSnJ116jZS1DMbGUUoq5xPvxoiGBkodlzJYQi3JFLufFacQ117117",
+		"building_block_category_id": "Swt1230pITCv1164mcikbgYBhx2116kY3qx6PnQDVwgNdmOPD116UPj80116OukC3EtB8XP4DL123SFRQkOiNENT116LvuyJydmw117117",
+		"name": "APIs.json",
+		"about": "Use the APIs.json JSON specification for describing collections of APIs, allowing them to be indexed for inclusion in public and private search engines.",
+		"category_id": "264",
+		"category": "Specification",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
