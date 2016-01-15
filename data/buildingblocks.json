@@ -8,7 +8,7 @@
 		"category": "Discovery",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-directory.png",
 		"image_width": "150",
-		"sort_order": "0"
+		"sort_order": "1"
 	},
 	{
 		"building_block_id": "CBc5t9gyKMIF1s02xCX4EWwcTchMV2k8KHTwfULmM83p4Sa9UkkycZQANttk6RZHo6DAXitCgk5tc9ykwJ7utQ117117",
@@ -19,40 +19,7 @@
 		"category": "Search",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/apis-io-logo.png",
 		"image_width": "225",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "AhzCm2gctmk9im2ta6ZYng9I49bqS4CmqxUpV7h1166e5JFKAHxGiPHQGTKUf8pXe116xZYeNagH1XaTpXSZUAPaDA117117",
-		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
-		"name": "API Hub",
-		"about": "API directories usually span many categories, where hubs often focus on specific area like telco, or healthcare, providing a single hub for discovering APIs.",
-		"category_id": "78",
-		"category": "Discovery",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hub.png",
-		"image_width": "150",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "I123qzD5116XhM3k4D43TgLHYLWI1160TZy91230zyA123RXdDlxsI0haYUkXZ18gyNuQprWXANrQr1jYMYAze5fpuwvztnw117117",
-		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
-		"name": "IDE Extension",
-		"about": "integrated development environment (IDE) extensions or add-ons that allow developers to quickly discovery and understand API endpoints.",
-		"category_id": "78",
-		"category": "Discovery",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ide.png",
-		"image_width": "150",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "sW8116WGXIQvBSa123rEmQggZt8Uw5l9DeNOCikZTfDTNNhVyEZykGSh9M1m5dSkA5Eaw3zKRQNI98ioEQs5OvN123bA117117",
-		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
-		"name": "API Explorer",
-		"about": "Sometimes also called consoles are designed to provide an interactive interface for developers to discover, explore, make calls and see responses in an interactive way. ",
-		"category_id": "78",
-		"category": "Discovery",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compass.png",
-		"image_width": "150",
-		"sort_order": "0"
+		"sort_order": "1"
 	},
 	{
 		"building_block_id": "FPmNwUOa3GCY636O7XMpG02nyyrzxyt88c75huaWutMPU8wlu5H6eZ8QEsaQdNkrTiuVCA90FcvAW2GCIeIRDg117117",
@@ -63,18 +30,7 @@
 		"category": "Directory",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "QSVADlt116ohALmZhMojFzgT9vdAvZgZXIxDX116ZeWUMh7mpXqxYRZlH4bg7vVueUAcwQxYMDTXWdWCDh0oqEUT123w117117",
-		"building_block_category_id": "twc123hJWSjrdOiPxtkgsZwXsfjwuv6xJVVIjj123UADRFejgz5tTiDTFlxWz68DiT9KmVrf5ekpsrxUpWTkT1161KmA117117",
-		"name": "Mashape",
-		"about": "An API directory born out of the API management platform Mashape, providing a directory of Mashape clients APIs.",
-		"category_id": "117",
-		"category": "Directory",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "1"
 	},
 	{
 		"building_block_id": "aLBqSwlW9gHGvviGze08GinZq3123RcJ5116Q2xBqPLkhc2Y2sES9BcSWTy6U6C4avX9CpeKuhb5U0dyl411aDHf8Q117117",
@@ -85,18 +41,7 @@
 		"category": "Business",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "9CqewpDK3L5w6c2FYhy3LwnXVVFChuSw123Nf6iLQfMipLghSV2sxOKRrePiS83v5I9qXfcxnwh116CbW1jHzkcg5Q117117",
-		"building_block_category_id": "JXKipCnQKJ116UVCgn65LMCbCsCMNqnxMOlVeNvWlOZOc43YG5lHEjO116cazQF0pE7YIfZ4116xf123JjWdswIs6C7JOw117117",
-		"name": "AngelList",
-		"about": "Like Crunchbase, AngelList is a directory of companies, but also provides a way to showcase companies who have APIs.",
-		"category_id": "118",
-		"category": "Business",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "1"
 	},
 	{
 		"building_block_id": "ulhka7ijF0NMQx9l6OdZix14R3xfnXi6sdLInztjoUSnJ116jZS1DMbGUUoq5xPvxoiGBkodlzJYQi3JFLufFacQ117117",
@@ -107,7 +52,62 @@
 		"category": "Specification",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "1"
+	},
+	{
+		"building_block_id": "AhzCm2gctmk9im2ta6ZYng9I49bqS4CmqxUpV7h1166e5JFKAHxGiPHQGTKUf8pXe116xZYeNagH1XaTpXSZUAPaDA117117",
+		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
+		"name": "API Hub",
+		"about": "API directories usually span many categories, where hubs often focus on specific area like telco, or healthcare, providing a single hub for discovering APIs.",
+		"category_id": "78",
+		"category": "Discovery",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hub.png",
+		"image_width": "150",
+		"sort_order": "2"
+	},
+	{
+		"building_block_id": "QSVADlt116ohALmZhMojFzgT9vdAvZgZXIxDX116ZeWUMh7mpXqxYRZlH4bg7vVueUAcwQxYMDTXWdWCDh0oqEUT123w117117",
+		"building_block_category_id": "twc123hJWSjrdOiPxtkgsZwXsfjwuv6xJVVIjj123UADRFejgz5tTiDTFlxWz68DiT9KmVrf5ekpsrxUpWTkT1161KmA117117",
+		"name": "Mashape",
+		"about": "An API directory born out of the API management platform Mashape, providing a directory of Mashape clients APIs.",
+		"category_id": "117",
+		"category": "Directory",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "2"
+	},
+	{
+		"building_block_id": "9CqewpDK3L5w6c2FYhy3LwnXVVFChuSw123Nf6iLQfMipLghSV2sxOKRrePiS83v5I9qXfcxnwh116CbW1jHzkcg5Q117117",
+		"building_block_category_id": "JXKipCnQKJ116UVCgn65LMCbCsCMNqnxMOlVeNvWlOZOc43YG5lHEjO116cazQF0pE7YIfZ4116xf123JjWdswIs6C7JOw117117",
+		"name": "AngelList",
+		"about": "Like Crunchbase, AngelList is a directory of companies, but also provides a way to showcase companies who have APIs.",
+		"category_id": "118",
+		"category": "Business",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "2"
+	},
+	{
+		"building_block_id": "I123qzD5116XhM3k4D43TgLHYLWI1160TZy91230zyA123RXdDlxsI0haYUkXZ18gyNuQprWXANrQr1jYMYAze5fpuwvztnw117117",
+		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
+		"name": "IDE Extension",
+		"about": "integrated development environment (IDE) extensions or add-ons that allow developers to quickly discovery and understand API endpoints.",
+		"category_id": "78",
+		"category": "Discovery",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ide.png",
+		"image_width": "150",
+		"sort_order": "3"
+	},
+	{
+		"building_block_id": "sW8116WGXIQvBSa123rEmQggZt8Uw5l9DeNOCikZTfDTNNhVyEZykGSh9M1m5dSkA5Eaw3zKRQNI98ioEQs5OvN123bA117117",
+		"building_block_category_id": "J4bzafi34taENThgapTvVYX52BHcvCU3nYVpIpJbrjYE8TGqqmILk123SU29CUjljsrNG0W7GF9uPztqAWHPf8Aw117117",
+		"name": "API Explorer",
+		"about": "Sometimes also called consoles are designed to provide an interactive interface for developers to discover, explore, make calls and see responses in an interactive way. ",
+		"category_id": "78",
+		"category": "Discovery",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compass.png",
+		"image_width": "150",
+		"sort_order": "4"
 	},
 	{
 		"building_block_id": "7nR57SdgdJncAWsRutM7UglBjYbyDzPXirRE6N7J1f1cQ9Ma7dNCbxk1tPgHoAYS75s1j8l3ic2ZW1ElVyccZQ117117",
@@ -118,6 +118,6 @@
 		"category": "Discovery",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "5"
 	}
 ]
