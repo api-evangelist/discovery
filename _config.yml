@@ -10,7 +10,7 @@ author:
   email:      'info@apievangelist.com'
 markdown:     kramdown
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 paginate: 150
