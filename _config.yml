@@ -8,9 +8,7 @@ version:      1.1.1
 author:
   name:       'Kin Lane'
   email:      'info@apievangelist.com'
-markdown:     rdiscount
-permalink:    pretty
-pygments:     true
+markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -57,7 +55,7 @@ navigation:
     padding: 2
     decorate: 0
   - label1: Organizations
-    link1: /companies.html
+    link1: /organizations/
     size1: 80
     extend: 1
     label2: JSON
@@ -66,7 +64,7 @@ navigation:
     padding: 0
     decorate: 0
   - label1: Building Blocks
-    link1: /building-blocks.html
+    link1: /building-blocks/
     size1: 80
     extend: 1
     label2: JSON
@@ -75,7 +73,7 @@ navigation:
     padding: 0
     decorate: 0
   - label1: Tools
-    link1: /tools.html
+    link1: /tools/
     size1: 80
     extend: 1
     label2: JSON
