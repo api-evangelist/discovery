@@ -1,0 +1,226 @@
+---
+layout: post
+title: 'What Is APIs.json? And What Is Next For the API Discovery Format?'
+source: http://discovery.apievangelist.com/2016/02/25/what-is-apisjson-and-what-is-next-for-the-api-discovery-format/
+domain: discovery.apievangelist.com
+image: 
+atomdate: 2016-02-25T09:44:38-08:00
+---
+<p><a href="http://apisjson.org/"><img style="padding: 10px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png" alt="" width="150" align="right" /></a></p>
+<p>As part of a renewed focus on the <a href="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png">API discovery definition format APIs.json</a>, I wanted to revisit the propsed machine readable API discovery specification, and see what is going on. First, what is APIs.json? It is a machine readable JSON specification, that anyone can use to define their API operations. APIs.json does not describe your APIs like <a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI Spec</a> and <a href="https://apiblueprint.org/">API Blueprint</a> do, it describes your surrounding API operations, with entries that can reference your Open API Spec, API Blueprint, or any other format that you desire.</p>
+<p><strong>APIs.json Is An Index For API Operations</strong><br />APIs.json provides a machine readable approach that API providers can put work in describing their API operations, similar to how web site providers describe their websites using <a href="https://www.xml-sitemaps.com/">sitemap.xml</a>. Here are the APIs, who are describing their APIs using APIs.json:</p>
+<div style="width: 100%; height: 350px; overflow: auto;">
+<table style="padding-left: 25px;" border="0" cellspacing="2" cellpadding="3">
+<tbody>
+<tr>
+<td width="80%" align="left"><a href="http://austin2015.apistrat.com/apis.json"><strong>APIStrat Austin API</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://austin2015.apistrat.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://developer.apievangelist.com/apis.json"><strong>API Evangelist</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://developer.apievangelist.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://acuityscheduling.com/apis.json"><strong>Acuity Scheduling</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://acuityscheduling.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://breezometer.com/static/apis.json"><strong>BreezoMeter</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://breezometer.com/static/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://api.checkmarket.com/3/apis.json"><strong>CheckMarket</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://api.checkmarket.com/3/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://clarify.io/apis.json"><strong>Clarify</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://clarify.io/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://developer.datavalidation.com/apis.json"><strong>Data Validation</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://developer.datavalidation.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://www.dnscheck.co/apis.json"><strong>DNS Check</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://www.dnscheck.co/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://emailhunter.co/apis.json"><strong>Email Hunter</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://emailhunter.co/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://feedbackhub.co.uk/api/apis.json"><strong>FeedbackHub</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://feedbackhub.co.uk/api/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://www.fitbit.com/apis.json"><strong>Fitbit</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://www.fitbit.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://gavagai.se/apis.json"><strong>Gavagai</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://gavagai.se/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://developer.kinlane.com/apis.json"><strong>Kin Lane</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://developer.kinlane.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://www.linkcreationstudio.com/developer/apis.json"><strong>Link Creation Studio</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://www.linkcreationstudio.com/developer/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://www.onemusicapi.com/apis.json"><strong>OneMusicAPI</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://www.onemusicapi.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://s3.amazonaws.com/enterprise-multitenant.3scale.net.3scale.net/pandorabots/2014/11/24/apis-35a2e2943bc0ef78.json?AWSAccessKeyId=AKIAIRYLTWBQ37ZNGBZA&amp;Expires=1455947523&amp;Signature=0RKNkK%2BnlCbkILpfwno6wh2neZo%3D"><strong>Pandorabots API</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://s3.amazonaws.com/enterprise-multitenant.3scale.net.3scale.net/pandorabots/2014/11/24/apis-35a2e2943bc0ef78.json?AWSAccessKeyId=AKIAIRYLTWBQ37ZNGBZA&amp;Expires=1455947523&amp;Signature=0RKNkK%2BnlCbkILpfwno6wh2neZo%3D" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://qalendra.com/apis.json"><strong>Qalendra</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://qalendra.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://ritetag.com/assets/apis.json"><strong>RiteTag</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://ritetag.com/assets/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://www.singlewire.com/apis.json"><strong>Singlewire</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://www.singlewire.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://sitecapt.com/apis.json"><strong>SiteCapt</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://sitecapt.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://www.social-searcher.com/apis.json"><strong>Social Searcher API</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://www.social-searcher.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://www.supermonitoring.com/apis.json"><strong>Super Monitoring</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://www.supermonitoring.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://api.timekit.io/apis.json"><strong>Timekit</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://api.timekit.io/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://developer.trade.gov/apis.json"><strong>Trade.gov</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://developer.trade.gov/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://twitchbots.info/apis.json"><strong>Twitch Bot Directory</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://twitchbots.info/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://enclout.com/api/apis.json"><strong>EnClout</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://enclout.com/api/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="http://api.meerkat.com.br/frapi/docs/apis.json"><strong>frAPI</strong></a></td>
+<td width="50" align="center"><a title="Website" href="http://api.meerkat.com.br/frapi/docs/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://aperture.section.io/apis.json"><strong>Section.io</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://aperture.section.io/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+<tr>
+<td width="80%" align="left"><a href="https://spoonacular.com/apis.json"><strong>Spoonacular</strong></a></td>
+<td width="50" align="center"><a title="Website" href="https://spoonacular.com/apis.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" alt="" width="25" align="middle" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>APIs.json Indexes Can Be Created By 3rd Parties</strong><br />One important thing to add, is that these APIs.json files can also be crafted, and published by external parties. An example of this is with the Trade.gov APIs. <a href="http://developer.trade.gov.apievangelist.com/apis.json">I originally created that APIs.json file</a>, and coordinated with them to eventually it get published under their own domain, making it an authoritative APIs.json file. Many APIs.json files will be born outside of the API operations they describe, something you can see in my API stack project:</p>
+<ul>
+<li><a href="http://theapistack.com/companies.html">The API Stack</a> - Provides almost 1000 APIs.json files, that describe the API operations of many leading public API platforms. There is also around 300 OpenAPI specifications, for some of the platforms described</li>
+</ul>
+<p><strong>APIs.json Can Be Used To Describe API Collections</strong><br />Beyond describing a single API, within a single domain, APIs.json can also be used to describe entire collections of APIs, providing a machine readable way to organize, and share valuable collections of API resources. Here are a few examples of projects that are producing APIs.json driven collections.</p>
+<ul>
+<li><a href="http://stack.apievangelist.com/apis.json">Defining APIs that you depend on for organizational operation.</a></li>
+<li><a href="http://monitoring.apievangelist.com/apis.json">Defining a specific category of API operations, using the format.</a></li>
+<li>SMS - <a href="http://sms.stack.network/">http://sms.stack.network/</a></li>
+<li>MMS - <a href="http://mms.stack.network/">http://mms.stack.network/</a></li>
+<li>Email - <a href="http://email.stack.network/">http://email.stack.network/</a></li>
+<li>News - <a href="http://news.stack.network/">http://news.stack.network/</a></li>
+</ul>
+<p><strong>APIs.json Can Be Used To Describe Collections of Collections</strong><br />Then taking things up another rung up the chain, APIs.json can also provide a collection of collections, something I do with my own APIs. Each Github organization on my network has a master APIs.json, providing include links to all other APIs.json within the organization. In this scenario I have over 30 other APIs.json indexed, which can all operate independently of each other, but can also be considered a collection of API collections.</p>
+<ul>
+<li><a href="https://kin-lane.github.io/master/apis.json">Master</a> - A master collection of API collections I maintain as part of the API Evangelist network operations.</li>
+</ul>
+<p><strong>The First Open Source Tooling For APIs.json</strong><br />Up until now, this post is all about APIs.json, where in reality the format is useless without their being any tooling built on top of the specification, bringing value to the table. This is why the 3Scale team got to work building an open source APIs.json driven search engine:</p>
+<ul>
+<li><a href="http://apis.io/">APIs.io</a> as an open source tool dedicated to APIs.json</li>
+<li><a href="http://apis.io/">APIs.io</a> as a public API search engine, with APIs.json as index.</li>
+<li><a href="http://apis.io/">APIs.io</a>&nbsp;as a&nbsp;private API search engine, with APIs.json as index.</li>
+</ul>
+<p><strong>APIs.json Driving Other Open Tooling</strong><br />APIs.io is just the beginning. It won't be enough to convince all API providers that they should be producing APIs.json index of their site operations, just for the API discovery boost. We are going to need APIs.json driven tooling that will service every other stop along the life cycle, including:</p>
+<ul>
+<li><strong>HTTP Client / Hub / Workbenches</strong></li>
+<li><strong>Documentation</strong></li>
+<li><strong>Testing</strong></li>
+<li><strong>Monitoring</strong></li>
+<li><strong>Virtualization</strong></li>
+<li><strong>Visualization</strong></li>
+</ul>
+<p><strong>APIs.json Integrated Into Existing Platforms</strong><br />What areas would you like to see served? Personally, I would like to have the ability to load / unload my APIs.json collections into any service that I use. Allowing me to organize my internal, public, and 3rd party APIs I depend within any platform out there that is servicing the API space. Here are a handful of those types of integrations that are already happening:</p>
+<ul>
+<li><strong><a href="http://warewolf.io/ESB-blog/swagger-apisjson-support/">WarewolfESB</a> </strong>- ESB integration and API discovery.</li>
+<li><strong><a href="http://swagger.io/integrating-with-the-swaggerhub-api/">SwaggerHub</a> </strong>- Public and private API hub discovery.</li>
+<li><strong>API Management</strong> - In Progress w/ <a href="http://3scale.net">3Scale</a>...</li>
+<li><strong>API Monitoring</strong> - In Progress with <a href="http://apiscience.com">API Science</a>...</li>
+<li><strong>API Change Log </strong>-&nbsp;&nbsp;In Progress with <a href="http://apichangelog.com">API ChangeLog</a>...</li>
+<li><strong><a href="https://smartbear.com/plugins/apis-io-import-export/">SmartBear</a> -</strong> API discovery for monitoring, testing, virtualization, and security.</li>
+<li><strong><a href="http://developer.apievangelist.com/">API Evangelist</a></strong> - API analyst operations.</li>
+<li><strong><a href="http://developer.kinlane.com/">Kin Lane</a> </strong>- API factory operations (not organic)</li>
+<li><strong><a href="http://adopta.agency">Adopta.Agency</a></strong> - Government open data publishing.</li>
+</ul>
+<p><strong>APIs.json Linking To The Human Aspects Of API Operations</strong><br />APIs.json is just the scaffolding to hang links to essential aspects of your operations, it doesn't care what you link to. You can start by referencing essential links for your API operations like:</p>
+<ul>
+<li><strong>Signup</strong> - How to signup for a service.</li>
+<li><strong>Support</strong> - Where to get support.&nbsp;</li>
+<li><strong>Terms of Service </strong>- Where are the terms of service.</li>
+<li><strong>Pricing</strong> - Where to find the pricing for a service.</li>
+</ul>
+<p><strong>APIs.json Linking to Machine Readable Aspects of API Operations</strong><br />These do not have to be machine readable links, they can reference important things the humans will need first. However, ultimately the goal is to make as much of the APIs.json index as machine readable as possible, using a variety of existing API definition formats, available for a variety of purposes.</p>
+<ul>
+<li><a href="https://github.com/OAI/OpenAPI-Specification">OpenApI Spec</a>, for API description.</li>
+<li><a href="https://apiblueprint.org/">API Blueprint</a>, for API description.</li>
+<li><a href="http://apicommons.org/">API Common</a>, for API licensing.</li>
+<li><a href="https://www.getpostman.com/docs/collections">Postman</a>, for run-time.</li>
+</ul>
+<p><strong>Defining New, Machine Readable Property Elements For APIs.json</strong><br />While the APIs.json spec will evolve, something I talk about below, its real strength lies in its ability to incentivize the development of entirely new, machine readable API definitions, bringing even more value to the API discovery process. Here are a few of the additional specs being crafted independent of, but inspired by APIs.json:</p>
+<ul>
+<li><a href="http://apievangelist.com/2016/02/13/my-tooling-and-api-for-gathering-and-organizing-the-details-of-the-plans-and-pricing-for-apis/">API Plans</a>, for pricing, plans &amp; rate limits.</li>
+<li>API Monitoring, for monitoring &amp; testing.</li>
+<li>API Changelog, for operational monitoring.</li>
+<li>API SDK, for SDK reference.</li>
+<li>API Conversations - for the stream around API operations</li>
+</ul>
+<p><strong>Roadmap for Version 0.16 of APIs.json</strong><br />That is the 100K view of what is APIs.json now, and the short term plan for the future. Most of the change within the universe APIs.json is mapping will occur add the individual API, and within the machine readable specs that describe them like OpenAPI Spec, API Blueprint, and Postman. Secondarily, there will be additional, machine readable, API types being defined and added into the spec.</p>
+<p>Even with this reality, we do have a handful of changes planned for the 0.16 version of APIs.json:</p>
+<ul>
+<li><strong>commons</strong> - Establish a top level collection of common property elements that apply to ALL APIs being referenced in an APIs.json</li>
+<li><strong>country</strong> - Adding a top level country reference using&nbsp;<a href="http://www.iso.org/iso/country_codes">ISO 3166</a>.</li>
+<li>New Proper Elements - Suggesting a handful of new property elements to reference common API operation building blocks      
+<ul>
+<li>Registration</li>
+<li>Blog</li>
+<li>Github</li>
+<li>Twitter</li>
+</ul>
+</li>
+</ul>
+<p>I doubt we will see many new additions like commons and country. In the future most of the structural changes to APis.json will be derived from first class property elements (ie. adding documentation or Github), making this the proving ground for defining what are truly the most important aspects of API operations, and what should be machine readable vs human readable.</p>
+<p><strong>The Hard Work That Lies Ahead for APIs.json</strong><br />That concludes defining what is APIs.json, and what is next for APIs.json. Now we really have to get to work, doing the heavy lifting around:</p>
+<ul>
+<li>Getting more API providers to <span style="text-decoration: underline;">describe their API operations </span>using APIs.json, and publish in the root of the domain for their API ecosystem.</li>
+<li>Encourage more API evangelists, brokers &amp; analysts using to <span style="text-decoration: underline;">describe their collections</span>, using APIs.json, building more meaningful indexes and directories of high value APIs.</li>
+<li>Encourage platforms to <span style="text-decoration: underline;">build APIs.json into their operations</span>, as a storage and organization schema, but also as import / export format.</li>
+<li>Incentivize the development of more <span style="text-decoration: underline;">meaningful tooling that employs APIs.json</span>, and uses it to better serve the API life cycle.</li>
+<li>Continue to <span style="text-decoration: underline;">add new API property elements</span>, making sure as many of them as possible evolve to be machine readable, as well as first class citizens in the APIs.json specification.</li>
+</ul>
+<p>You can stay involved with what we are up to via <a href="http://apisjson.org/">the APIs.json website</a>, and <a href="https://github.com/apis-json/api-json">the APIs.json Github repository</a>. You can also stay in tune with what is going on with <a href="http://apis.io/">APis.io via the website</a>, and its Github repository. If you are doing something with APIs.json, ranging from using it as an index for your API operations, to platform integrations, please let me know. Also, if you envision some interesting tooling you'd like to see happen, <a href="https://github.com/apis-json/api-json/issues/new">make sure and submit a Github issue letting us know</a>.&nbsp;</p>
+<p>While we still have huge amounts of work to do, when it comes to delivering meaningful API discovery solutions that the industry can put to work, I am pretty stoked with what we have managed to do over the last two years of work on the APIs.json specification, and supporting tooling--momentum that I feel picking up in 2016.</p>
+<ul>
+</ul>
