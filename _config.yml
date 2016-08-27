@@ -11,24 +11,24 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
 paginate: 150
-paginate_path: "/news/page:num"
+paginate_path: "/blog/page:num"
 
-categories_path : /categories.html
-tags_path : /tags.html
+org: api-evangelist
+repo: discovery
 
 # Masthead title
 masthead_link: http://discovery.apievangelist.com
-masthead_font_size: 75
+masthead_font_size: 90
 masthead_title: '{"API Discovery"}'
 
 # Feature
 feature_title: API Guide
 feature_link: http://apievangelist.com
 feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 40
+feature_image_width: 45
 
 # Project
 project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png
@@ -37,7 +37,7 @@ project_summary: This is my research around the world of API discovery, as well 
 # Navigation
 navigation:
   - label1: Home
-    link1: /index.html
+    link1: /
     size1: 80
     extend: 0
     label2:
@@ -45,21 +45,30 @@ navigation:
     size2: 0
     padding: 0
     decorate: 0
-  - label1: News
-    link1: /news/
+  - label1: Blog
+    link1: /blog/
     size1: 80
     extend: 1
     label2: RSS
     link2: /blog.xml
     size2: 60
-    padding: 2
+    padding: 0
+    decorate: 0
+  - label1: News
+    link1: /news/
+    size1: 80
+    extend: 1
+    label2: RSS
+    link2: /news.xml
+    size2: 60
+    padding: 0
     decorate: 0
   - label1: Organizations
     link1: /organizations/
     size1: 80
     extend: 1
     label2: JSON
-    link2: /data/companies.json
+    link2: /data/organizations.json
     size2: 60
     padding: 0
     decorate: 0
@@ -79,7 +88,7 @@ navigation:
     label2:
     link2:
     size2: 10
-    padding: 20
+    padding: 0
     decorate: 1
 
 # Footer Navigation
@@ -101,5 +110,20 @@ footernavigation:
 
 # sponsors
 sponsors_margin_top: 15
-sponsors_padding_top: 10
+sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60
+
+# curated
+curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API discovery--these are the links I am including in my research.
+
+# organizations
+org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API discovery. These are the organizations I'm currently including in my API discovery research.
+
+# tools
+tools_desc: These are the open source management related tooling that I am tracking on as part of my research, and can be used as part of the API discovery process.

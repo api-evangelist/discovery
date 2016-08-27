@@ -1,82 +1,22 @@
+---
+layout: none
+---
 [
-	{
-		"tool_id": "115",
-		"name": "Apigee API Console",
-		"user": "",
-		"details": "Apigee API Consoles make it easier for developers to learn and use an API You can think of a Console as a GUI for an API or cURL on steroids Featuring an easytouse interface Apigee API Consoles provide a GUI for exploring an APIs resources and executing its methods",
-		"post_date": "2013-07-29 12:51:48",
-		"url": "http://apigee.com/docs/consoletogo",
-		"blog_url": "http://apigee.com/docs/consoletogo",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apigee-api-console.jpg",
-		"forks": 0,
-		"followers": 0,
-		"watchers": 0
-	},
-	{
-		"tool_id": "145",
-		"name": "APIs.json",
-		"user": "",
-		"details": "APIs are becoming a crucial part of the Web Unfortunately however it remains very difficult to determine the location of these APIs on servers around the Web The only way to discover APIs and their properties is via human driven search through public search engines or in hand curated API Directory listings While these methods work neither can scale to the potentially hundreds of thousands and millions of APIs which will be published over the next few years",
-		"post_date": "2014-06-15 17:00:37",
-		"url": "http://apisjson.org/",
-		"blog_url": "http://apisjson.org/",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apisdotjson.png",
-		"forks": 0,
-		"followers": 0,
-		"watchers": 0
-	},
-	{
-		"tool_id": "113",
-		"name": "Google API Explorer",
-		"user": "",
-		"details": "The Google APIs Explorer allows developers to navigate Google API services browse available methods make API requests and see responses The Explorer is written in GWT and relies heavily on the Discovery API By selecting an API you want to explore you can see all the available methods and parameters along with inline documentation Just fill out the parameters for the method you want to try and click ldquoExecuterdquo The Explorer composes the request executes it and displays the response in real timenbsp",
-		"post_date": "2013-07-29 12:30:50",
-		"url": "https://code.google.com/p/google-apis-explorer/",
-		"blog_url": "https://code.google.com/p/google-apis-explorer/",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/google-api-explorer.jpg",
-		"forks": 0,
-		"followers": 0,
-		"watchers": 0
-	},
-	{
-		"tool_id": "69",
-		"name": "I/O Docs",
-		"user": "",
-		"details": "IO Docs is a live interactive documentation system for RESTful web APIs By defining APIs at the resource method and parameter levels in a JSON schema IO Docs will generate a JavaScript client interface API calls can be executed from this interface which are then proxied through the IO Docs server with payload data cleanly formatted prettyprinted if JSON or XML",
-		"post_date": "2013-02-02 20:12:13",
-		"url": "https://github.com/mashery/iodocs",
-		"blog_url": "https://github.com/mashery/iodocs",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/io-docs-logo.jpg",
-		"forks": 0,
-		"followers": 0,
-		"watchers": 0
-	},
-	{
-		"tool_id": "74",
-		"name": "Swagger Core",
-		"user": "",
-		"details": "Swagger is a specification and complete framework implementation for describing producing consuming and visualizing RESTful web services The overarching goal of Swagger is to enable client and documentation systems to update at the same pace as the servernbsp The documentation of methods parameters and models can be tightly integrated into the server code allowing APIs to always stay in sync",
-		"post_date": "2013-04-26 21:34:03",
-		"url": "https://github.com/wordnik/swagger-core/wiki",
-		"blog_url": "https://github.com/wordnik/swagger-core/wiki",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/swagger-logo-green.png",
-		"forks": 0,
-		"followers": 0,
-		"watchers": 0
-	}
+{% for tool in site.data.tools %}{
+	"tool_id": "{{ org.id }}",
+	"name": "{{ org.name }}",
+	"user": "{{ org.user }}",
+	"details": "{{ org.details }}",
+	"post_date": "{{ org.post_date }}",
+	"url": "{{ org.portal_url }}",
+	"blog_url": "{{ org.blog_url }}",
+	"blog_rss_url": "{{ org.blog_rss_url }}",
+	"twitter_url": "{{ org.twitter_url }}",
+	"github_url": "{{ org.github_url }}",
+	"logo": "{{ org.logo }}",
+	"forks": "{{ org.forks }}",
+	"followers": "{{ org.followers }}",
+	"watchers": "{{ org.watchers }}",
+	"tags": {{ tool.tags }}
+{% endfor %}}{% if tool.last != true %},{% endif %}
 ]
