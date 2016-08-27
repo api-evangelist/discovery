@@ -22,35 +22,6 @@
 		]
 	},
 	{
-		"id": "1mxjXpZIY3Of9Djfb8uTvoK8JIDqLndYYWpK123bGAorTQryqVRSoTTsI7uhzqxc6nf538AjyGFE1165123PmOZUqQ0w117117",
-		"name": "Apigee",
-		"summary": "Apigee delivers an intelligent API platform to accelerate the pace of digital business.  We help companies - from disruptive start-ups to the Fortune 100 u2013 use their enterprise data and services to create connected digital experiences for customers, partners and employees. This is digital business.",
-		"details": "Apigee delivers an intelligent API platform to accelerate the pace of digital business.  We help companies - from disruptive start-ups to the Fortune 100 u2013 use their enterprise data and services to create connected digital experiences for customers, partners and employees. This is digital business.",
-		"website": "https://apigee.com",
-		"twitter": "https://twitter.com/Apigee",
-		"github": "https://github.com/apigee",
-		"apisjson_url": "",
-		"sdksio_url": "",
-		"postman_url": "",
-		"portal_url": "https://github.com/apigee",
-		"base_url": "",
-		"blog": "https://blog.apigee.com/front",
-		"blogrss": "",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
-		"tags": [
-			"Portal",
-			"Management",
-			"Discovery",
-			"Deployment",
-			"BaaS",
-			"API Management Other",
-			"API Gateways",
-			"API Deployment Gateways"
-		]
-	},
-	{
 		"id": "wppCUCeZ123VQiGQYdKk9FqZYbstCIFuA2wiNOKP116obuNURDuIOz1rDK3ubS1237OxuivjlqFZiGcuM123s213KjKI0w117117",
 		"name": "APIHound",
 		"summary": "We launched APIHound because -like you- we depend on finding APIs to build cool stuff. We searched for a good API directory, but all we found were sites like ProgrammableWeb that have been manually collecting APIs for years and PublicAPIs which has a very small API database. There had to be more APIs out there waiting to be found. We decided it was time to bring API Searching into the 21st century",
@@ -119,32 +90,6 @@
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apisdotjson.png",
 		"tags": [
 			"Discovery"
-		]
-	},
-	{
-		"id": "TjJ4VUORcLxQW10bSfvxH617Pj2ErpLPjDz4nmFDQPzIZvRNq2SPOQN123JUbL1GuhQR688jOgh1kPl4rMGccTkA117117",
-		"name": "HashiCorp",
-		"summary": "HashiCorp is a company based in San Francisco that solves development, operations, and security challenges in infrastructure so organizations can focus on business-critical tasks. HashiCorp builds tools to ease these decisions by presenting solutions that span the gaps. Our tools manage both physical machines and virtual machines, Windows, and Linux, SaaS and IaaS, etc. And were committed to suppo",
-		"details": "HashiCorp is a company based in San Francisco that solves development, operations, and security challenges in infrastructure so organizations can focus on business-critical tasks. HashiCorp builds tools to ease these decisions by presenting solutions that span the gaps. Our tools manage both physical machines and virtual machines, Windows, and Linux, SaaS and IaaS, etc. And were committed to supporting next-generation technologies, as well.",
-		"website": null,
-		"twitter": null,
-		"github": null,
-		"apisjson_url": null,
-		"sdksio_url": null,
-		"postman_url": null,
-		"portal_url": null,
-		"base_url": null,
-		"blog": null,
-		"blogrss": null,
-		"logo": null,
-		"logo_width": null,
-		"screenshot": null,
-		"tags": [
-			"Orchestration",
-			"Microservices",
-			"Logging",
-			"Discovery",
-			"Automation"
 		]
 	},
 	{
