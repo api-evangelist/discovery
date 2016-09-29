@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Google APIs Discovery Service'
+source: http://discovery.apievangelist.com/2011/05/21/google-apis-discovery-service/
+domain: discovery.apievangelist.com
+image: 
+atomdate: 2011-05-21T05:21:20-07:00
+---
+<img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/google/google-apis-discovery-filing-cabinet.png" alt="" align="right" />The<a title="Google APIs Discovery Service" href="http://code.google.com/apis/discovery/index.html">Google APIs Discovery Service</a> provides a set of web APIs for discovering metadata across Google APIs.<p></p>
+The discovery service delivers a JSON-based API that provides a directory of supported Google APIs, and a machine-readable discovery document"for each of the supported APIs that includes:
+<ul class="mainlist">
+	<li>List of API resource schemas based on JSON Schema</li>
+	<li>List of API methods and available parameters for each method</li>
+	<li>Available OAuth 2.0 scopes for each API</li>
+	<li>Inline documentation of methods, parameters and available parameter values</li>
+</ul>
+Developers can use the Google APIs Discovery Service to build client libraries, IDE plugins and other tools that interact with supported Google APIs.<p></p>
+The Google APIs Discovery Service delivers two things for each supported API:
+<ul class="mainlist">
+	<li><strong>APIs Directory Resource</strong>
+<ul class="mainlist">
+	<li>Identification and description information, including name, version, title, and description.</li>
+	<li>Documentation information, including icons and a documentation link.</li>
+	<li>Status information, including status labels, and an indication as to whether or not this is the preferred version of the API.</li>
+	<li>Discovery document link, the URI of the discovery document for this API</li>
+</ul>
+</li>
+	<li><strong>Discovery Document Resource</strong>
+<ul class="mainlist">
+	<li>Schemas, which is a list of API resource schemas that describe the data you have access to in each API</li>
+	<li>Methods, including a list of API methods and available parameters for each method.</li>
+	<li>OAuth scopes, which identifies the list of OAuth scopes available for this API.</li>
+	<li>Inline documentation, which provides brief descriptions of schemas, methods, parameters and available parameter values.</li>
+</ul>
+</li>
+</ul>
+The Google APIs Discovery Service is part of a larger effort by Google to get a handle on their growing number of APIs.  Developers find themselves potentially using multiple Google APIs across many application or client projects.<p></p>
+The Google APIs Discovery Service allows developers to find new APIs available in the directory and programmatically discover how the API authenticates, what methods, and parameters are available.<p></p>
+Not many companies have the number of APIs that Google has, and would need an API discovery service.  But with the recent growth in web APIs there will be more of a need for API discovery services within specific areas or industries.
