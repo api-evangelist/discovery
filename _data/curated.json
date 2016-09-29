@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "gz7b5yM03RaiIy5VqfdVhil116aTgSLQ40742123D7Rb42bkcraWrE1c9Qo4gRyYYlMYhxg116AC4Vh4VSIY20rQV2vg117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "Whats New in OpenShift 33 Enterprise Container Registry",
+		"url": "https://blog.openshift.com/whats-new-openshift-3-3-enterprise-container-registry/",
+		"domain": "blog.openshift.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cYUvp11683b3aPdY123CsiQOsChT7hH83hW05116dQFHH9RqTlmg1N1162t116TghgxyNQ0eu116zNyjTXRcuCa5ZGZwOSWndw117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "ITOps in the Modern Ops World",
+		"url": "https://dzone.com/articles/itops-in-the-modern-ops-world",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QbMgzEU5e0t0pg9q0Axk1S8b1Lfx0xWkx09a915E9lHN116HC7QJn4EZcZbKQDNTvw8mp3f8KFTh7PkmsMUXgxKQ117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "The science of autodiscovery advances container monitoring",
+		"url": "https://www.opsclarity.com/monitoring-docker-part-2/",
+		"domain": "www.opsclarity.com",
+		"image": ""
+	},
+	{
 		"curated_id": "TLs1BGnix2R4oAHjC4su116ySvneOX1fWoK3LYCNHTkjV9FP4XW2tQkHjPD6Whjv116LWZUQdTTsC9QGwiFY123CIB0w117117",
 		"item_date": "2016-07-22 00:00:00",
 		"title": "3 Ways to Automate with NGINX and NGINXPlus",
