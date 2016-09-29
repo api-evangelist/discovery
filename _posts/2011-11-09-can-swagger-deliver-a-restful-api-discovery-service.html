@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Can Swagger Deliver a RESTful API Discovery Service?'
+source: http://discovery.apievangelist.com/2011/11/09/can-swagger-deliver-a-restful-api-discovery-service/
+domain: discovery.apievangelist.com
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/Swagger-Logo.png
+atomdate: 2011-11-09T18:32:08-08:00
+---
+<p><a title="Swagger" href="http://swagger.wordnik.com/"></a><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/api-evangelist/swagger/Swagger-Logo.png" alt="" align="right" /></p>
+<p>There is a lot of discussion around the growth of APIs, and what the future will look like.  How will we discover and make sense of the number of available APIs, and quickly get to work integrating with the APIs that bring the most value to our apps and businesses.</p>
+<p>One technology that comes up in every conversation I&rsquo;ve had is <a title="Swagger" href="http://swagger.wordnik.com/">Swagger</a>.  What is Swagger?</p>
+<blockquote><strong><em>Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.</em></strong></blockquote>
+<p>The goal of Swagger is to enable client and documentation systems to update at the same pace as the server. The documentation of methods, parameters and models are tightly integrated into the server code, allowing APIs to always stay in sync.</p>
+<p>Swagger was born out of initiatives from <a title="Wordnik" href="http://www.wordnik.com/">Wordnik</a>, developed for Wordnik&rsquo;s own use during the development of <a title="developer.wordnik.com" href="http://developer.wordnik.com/">developer.wordnik.com</a>.  Swagger development began in early 2010 and the framework being released is used by Wordnik&rsquo;s APIs, which power both internal and external API clients.</p>
+<p>Swagger provides a declarative resource specification, allowing users to understand and consume services without knowledge of server implementation, enabling both developers and non-developers to interact with the API, providing clear insight into how the API responds to parameters and options.</p>
+<p>I&rsquo;m familiarizing myself with the specification more and playing with the various tools they provide:</p>
+<p><a title="Swagger" href="http://swagger.wordnik.com/"></a><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/api-evangelist/swagger/Swagger-Screenshot-1.png" alt="" width="325" align="right" /></p>
+<ul class="mainlist">
+<li><strong>Swagger UI</strong> - A dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API </li>
+<li><strong>Swagger Core</strong> - Defines Java annotations and required logic to generate a Swagger server or client. </li>
+<li><strong>Swagger CodeGen</strong> - Contains a template-driven engine to generate client code in different languages by parsing your Swagger Resource Declaration. </li>
+<li><strong>Swagger node.js</strong> - A Sample App is a fully-functioning, stand-alone Swagger server written in javascript which uses node.js and the express framework. </li>
+<li><strong>Swagger Scala Sample App</strong> - A fully-functioning, stand-alone Swagger server written in Scala which demonstrates how to enable Swagger in your API. </li>
+<li><strong>Swagger Java Sample App</strong> - A fully-functioning, stand-alone Swagger server written in Java which demonstrates how to enable Swagger in your API. </li>
+</ul>
+<p>I understand that Swagger is not the one specification to rule all APIs, and it won&rsquo;t make all religious API fanatics happy.  But I want to start somewhere.  I see three main benefits for API owners coming from adopting Swagger:</p>
+<ul class="mainlist">
+<li>Automated, consistent generation of clean, beautiful, interactive API documentation</li>
+<li>Generation of client code and SDK in multiple languages</li>
+<li>Feeding into an industry wide API discovery language that both developers and non-developers can use</li>
+</ul>
+<p>I believe strongly that consistent documentation and code samples ensure an API will get used, but as the number of APIs grows, a system like <a title="Google API Discovery Service" href="/2011/05/21/google-apis-discovery-service/">Google API Discovery Service</a>, will be essential for API adoption across industries and around the globe.  I&rsquo;m hoping to learn more about Swagger, and see if it can help deliver on this vision.</p>
