@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "IQ2q00nKB5IqF0icX123egOpTDLm5v0grv83jPBfYNUZI116XUUXaJ6Qn116UEIbCZt5eZ0TzSWuaz00v116Kt6Cp4zXRw117117",
+		"item_date": "2016-10-14 00:00:00",
+		"title": "TIBCO BWCE Leveraging Consul for Service Discovery and Configuration Management",
+		"url": "http://www.tibco.com/blog/2016/10/14/tibco-bwce-leveraging-consul-for-service-discovery-and-configuration-management/",
+		"domain": "www.tibco.com",
+		"image": ""
+	},
+	{
 		"curated_id": "Q7oJSo116sb5n123kuGmNcCADR3Ev3IAWGYuxqbOh5QXMnadrCvns9116X8Vw8RIjXCQLjaSRhEfsM8sBYIOtdzm03lg117117",
 		"item_date": "2016-10-04 00:00:00",
 		"title": "Amazon Dash Button Detection via DHCP Discover",
