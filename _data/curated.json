@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "m3QVpH8hR5NX1nj6tBX123WNv116Md5Ya8Q116QVEPX8GZpFyijKSAYTGKsECxKNWIru1160TSop89s4Mm8xT0ioG116F0KA117117",
+		"item_date": "2016-11-01 00:00:00",
+		"title": "Cataloging Microservices",
+		"url": "https://dzone.com/articles/cataloguing-microservices?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "grzfhfOgHHDgzz7I75RU2ubdqEPkRJ456OdUoX3QZKiC5aICpMB0KT9M6634f2qQH04YcfSIUnMq8YARZWna4g117117",
+		"item_date": "2016-11-04 00:00:00",
+		"title": "Introducing Detail Pages on Amazoncom to Increase Discovery and Use for Your Alexa Skills",
+		"url": "https://developer.amazon.com/appsandservices/community/post/Tx12VWH3AGMGPYY/Introducing-Detail-Pages-on-Amazon-com-to-Increase-Discovery-and-Use-for-Your-Al",
+		"domain": "developer.amazon.com",
+		"image": ""
+	},
+	{
 		"curated_id": "IQ2q00nKB5IqF0icX123egOpTDLm5v0grv83jPBfYNUZI116XUUXaJ6Qn116UEIbCZt5eZ0TzSWuaz00v116Kt6Cp4zXRw117117",
 		"item_date": "2016-10-14 00:00:00",
 		"title": "TIBCO BWCE Leveraging Consul for Service Discovery and Configuration Management",
