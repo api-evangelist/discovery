@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "SVKfCTmntchUJwUcpKRphSnLOnBGQ0XYqQN7oR8EIIaugPQ1Go2JRtYIlO9wHi116WGJqhEsapuUAMKvyPAsiUtw117117",
+		"item_date": "2016-11-07 00:00:00",
+		"title": "CoreDNS for Kubernetes Service Discovery",
+		"url": "https://community.infoblox.com/t5/Community-Blog/CoreDNS-for-Kubernetes-Service-Discovery/ba-p/8187",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "z4mlT0HNjMBSRiQC1239PTsQ0s1167PRG5DPx8DhEdgjzx58w7uNNfVvR4irvYsBir1116SpSUu8rro5dduzRrBg8IVw117117",
+		"item_date": "2016-11-08 00:00:00",
+		"title": "Learning how to invoke IBM Alchemy Data News through API Harmony",
+		"url": "http://www.apiful.io/intro/2016/11/09/alchemy-data-news-lessons-learned.html",
+		"domain": "www.apiful.io",
+		"image": ""
+	},
+	{
 		"curated_id": "m3QVpH8hR5NX1nj6tBX123WNv116Md5Ya8Q116QVEPX8GZpFyijKSAYTGKsECxKNWIru1160TSop89s4Mm8xT0ioG116F0KA117117",
 		"item_date": "2016-11-01 00:00:00",
 		"title": "Cataloging Microservices",
