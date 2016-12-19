@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "j8JN79BazfONx6DiKOWh2Dp5RV52f2YxWIFFAt5Htq4NN0bjrEFOADEP70szTavfTOW7e2BiiEXpVZGZWPGIFw117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Introducing the Watson Discovery Service Content full of lemons Turn it into lemonade",
+		"url": "https://www.ibm.com/blogs/bluemix/2016/12/introducing-watson-discovery-service/",
+		"domain": "www.ibm.com",
+		"image": ""
+	},
+	{
 		"curated_id": "SVKfCTmntchUJwUcpKRphSnLOnBGQ0XYqQN7oR8EIIaugPQ1Go2JRtYIlO9wHi116WGJqhEsapuUAMKvyPAsiUtw117117",
 		"item_date": "2016-11-07 00:00:00",
 		"title": "CoreDNS for Kubernetes Service Discovery",
