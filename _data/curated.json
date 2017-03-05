@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "Q8pzGgl123116lH123iqdJppL3u0phyaOL1PZYjBwcYOaJj01Y0h07eFepL2E0C9cEETi1BLwPOD1168lJl123533cFnMEvw117117",
+		"item_date": "2017-03-01 00:00:00",
+		"title": "CoreDNS for Kubernetes Service Discovery Take 2",
+		"url": "https://community.infoblox.com/t5/Community-Blog/CoreDNS-for-Kubernetes-Service-Discovery-Take-2/ba-p/8873",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
 		"curated_id": "09xOJdKm5O0agNKtVredzNMwHOArxLBfcrN32MBeou8pLpga3zr116qpX116O70ahnRUFDNewSIu3sFQPr3zDq40Hw117117",
 		"item_date": "2017-02-14 00:00:00",
 		"title": "Endpoint Search Comes to API Harmony",
