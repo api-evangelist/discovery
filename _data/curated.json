@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "dvWcln0gTit1164aF472FVw11Eg5HU116ejF5SbuPNlt98fiilAYIoVJvCjD8PFRp0ipqNZObwRxQVfTPTfmBs5HLw117117",
+		"item_date": "2017-03-09 16:37:37",
+		"title": "Our new Amazon Cloud Directory API makes it easier to query data along multiple dimensions",
+		"url": "https://aws.amazon.com/blogs/security/new-cloud-directory-api-makes-it-easier-to-query-data-along-multiple-dimensions/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
 		"curated_id": "Q8pzGgl123116lH123iqdJppL3u0phyaOL1PZYjBwcYOaJj01Y0h07eFepL2E0C9cEETi1BLwPOD1168lJl123533cFnMEvw117117",
 		"item_date": "2017-03-01 00:00:00",
 		"title": "CoreDNS for Kubernetes Service Discovery Take 2",
