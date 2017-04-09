@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "IEHIPVlTGkzlK3mpkOYFUslDcfHzEEQT6e1236FzAW3dxGWvrNKvprzuw8gklM9ZPUhyG116GluIEOLzzWBs5laQew117117",
+		"item_date": "2017-04-06 10:59:35",
+		"title": "The troubles with APIs security discovery bulk loading",
+		"url": "http://www.zdnet.com/article/apis-examined/",
+		"domain": "www.zdnet.com",
+		"image": ""
+	},
+	{
 		"curated_id": "8ENqBIacVrAKiaXcSMEknxNEtC8mWAfctyGPXQ5hr2us3dZlsE84jVx50KCg8123L123123dNvtpXiDkx83qpIRmnYnQ117117",
 		"item_date": "2017-03-18 00:00:00",
 		"title": "Setting Up a Docker Private Registry With Authentication Using Nexus and NGINX",
