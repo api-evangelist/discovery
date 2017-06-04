@@ -1,601 +1,382 @@
-- slug: api-fortress
-  name: API Fortress
+- slug: issuu
+  name: Issuu
   description: >-
-    Test. Monitor. Automate: API Fortress is an enterprise cloud solution to
-    test, monitor, and automate the testing of APIs and web services. Create a
-    response validation test using our simple wizard, schedule the test to run
-    multiple times a day, and monitor the updates sent to your inbox.
-  url: 'http://apifortress.com'
+    Issuu is digital publishing and discovery platform that connects people to
+    content for which they have great passion, created by publishers large and
+    small, that share that passion. A digital publishing service that reimagines
+    the print experience, Issuu hosts over 17 million publications and serves
+    over 5.5 billion page-views to over 80 million active readers each month.
+    The site features leading and emerging titles in fashion, culture, arts,
+    hobbies, catalogs and hyperlocal content, all of which are accessible on any
+    device.
+  url: 'http://issuu.com'
   short_url: ''
-  twitter: 'https://twitter.com/apifortress'
-  blog: 'http://apifortress.com/blog/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-fortress.png
-  tags: 'Testing,Monitoring'
-- slug: apibond.com
-  name: apibond.com
-  description: >-
-    APIBond is an API management platform that acts as a proxy where you can
-    validate, transform, secure, analyze and scale any existing API.
-  url: 'http://apibond.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/apibond'
+  twitter: 'https://twitter.com/issuu'
   blog: ''
   blog_rss: ''
-  github: ''
+  github: 'https://github.com/issuu'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apibond-logo.png
-  tags: 'Monitoring,Aggregation,Testing'
-- slug: apica
-  name: Apica
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/issuu.png
+  tags: 'Publishing,Content,Books,Articles,Magazines,Content Discovery'
+- slug: mashape
+  name: Mashape
   description: >-
-    Apica provides the most effective technology for optimizing the performance
-    of cloud and mobile applications. Apica offers companies and developers
-    alike easy-to-use, cloud-based load testing and web performance monitoring
-    tools to test applications for maximum capacity, daily performance, improved
-    load times, and protection from peak loads. For more information about how
-    Apica is providing the highest standard for cloud and mobile application
-    performance management.
-  url: 'https://www.apicasystem.com'
+    Mashape provides tools that enable developers to quickly deliver and consume
+    APIs and offers a marketplace for listing APIs. Mashape provides tools for
+    testing your API, code for generation of custom errors, components for user
+    management and standardized API code language libraries in multiple
+    languages. &nbsp;Once your API is ready for prime time Mashape provides a
+    marketplace for listing your API, letting developers to easily discover and
+    begin hacking with your API, in a social API community environment.
+  url: 'http://mashape.com'
   short_url: ''
-  twitter: 'https://twitter.com/apicasystems'
-  blog: 'https://www.apicasystem.com/blog/'
-  blog_rss: 'https://www.apicasystem.com/feed/'
-  github: 'https://github.com/ApicaSystem'
+  twitter: 'https://twitter.com/mashape'
+  blog: 'http://blog.mashape.com/'
+  blog_rss: ''
+  github: 'https://github.com/Mashape'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apica-logo.png
-  tags: 'Monitoring,Testing,Performance'
-- slug: apigee-api-studio
-  name: Apigee API Studio
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/mashape-logo.png
+  tags: >-
+    Management,Discovery,Discovery,Design,API Management Other,API
+    LIfeycle,Studio
+- slug: aws-directory-service
+  name: AWS Directory Service
   description: >-
-    Apigee launched their API Studio out of their earlier Apigee-127 product,
-    their work on the Swagger platform and editor, and their BaaS offering. The
-    new studio opens up the ability for developers to design, mock, test and
-    share via their online open source based platform.
-  url: 'http://apistudio.io/'
+    AWS Directory Service for Microsoft Active Directory (Enterprise Edition),
+    also known as AWS Microsoft AD, enables your directory-aware workloads and
+    AWS resources to use managed Active Directory in the AWS Cloud. The
+    Microsoft AD service is built on actual Microsoft Active Directory and does
+    not require you to synchronize or replicate data from your existing Active
+    Directory to the cloud. You can use standard Active Directory administration
+    tools and take advantage of built-in Active Directory features such as Group
+    Policy, trusts, and single sign-on. With Microsoft AD, you can easily
+    join&nbsp;Amazon EC2&nbsp;and&nbsp;Amazon RDS for SQL Server&nbsp;instances
+    to a domain, and use&nbsp;AWS Enterprise IT applications&nbsp;such
+    as&nbsp;Amazon WorkSpaces&nbsp;with Active Directory users and groups.
+  url: 'https://aws.amazon.com/directoryservice/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-studio-logo.png
-  tags: 'Design,Testing,Virtualization,Clients,Studio'
-- slug: apitest.io
-  name: APITest.IO
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  tags: 'Amazon Web Services,Discovery,Authentication,Security'
+- slug: hypercat
+  name: Hypercat
   description: >-
-    apiTest.io is the new testing tool to test all your API requests, easy to
-    use with request and results saving. With our preconfigured API calls it is
-    easy to test some popular websites or your own HTTP(s), REST, SOAP, OAUTH
-    server.
-  url: 'https://www.apitest.io/'
+    HyperCat is a hypermedia catalogue format designed for exposing information
+    about IoT assets over the web.&nbsp;
+  url: 'http://www.hypercat.io/'
   short_url: ''
-  twitter: 'https://twitter.com/apitest_io'
+  twitter: 'https://twitter.com/hypercatiot'
+  blog: 'http://www.hypercat.io/blog'
+  blog_rss: 'http://www.hypercat.io/1/feed'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hypercat-logo.png
+  tags: 'Internet of Things,Discovery'
+- slug: hitch
+  name: Hitch
+  description: >-
+    Hitch is a single platform to help API owners engage with and grow their API
+    community. Our clients show striking similarities in the challenges they
+    face in building integrated and sustainable developer platforms. API
+    providers still struggle to make sure their platform is visible to the right
+    audience. Once found, access is inconsistent and cumbersome and even after
+    onboarding, key engagement tools are seldom available. We have put together
+    a single solution that covers these three key areas.
+  url: 'https://www.hitchhq.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/hitchhq'
+  blog: 'https://blog.hitchhq.com/'
+  blog_rss: 'https://blog.hitchhq.com/feed'
+  github: 'https://github.com/hitchhq'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitch-logo.jpg
+  tags: 'Discovery,Management,Portal'
+- slug: google-api-discovery-service
+  name: Google API Discovery Service
+  description: >-
+    You can use the Google API Discovery Service to build client libraries, IDE
+    plugins, and other tools that interact with Google APIs. It provides a
+    lightweight, JSON-based API that exposes machine-readable metadata about
+    Google APIs.
+  url: 'https://developers.google.com/discovery/'
+  short_url: ''
+  twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-test-io-logo.png
-  tags: Testing
-- slug: apitools
-  name: APItools
-  description: >-
-    Building Apps that depend on APIs speeds up development and helps make
-    software all-round more awesome. However, tracking and managing traffic
-    flows to these APIs, reacting if they slow down or fail, dealing with
-    version changes and the like can add massive overhead to development and
-    operations.
-  url: 'https://www.apitools.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/apitools'
-  blog: 'http://docs.apitools.com/blog/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitools-logo.png
-  tags: 'Testing,API Proxy'
-- slug: assertible
-  name: Assertible
-  description: >-
-    Gain confidence in crucial infrastructure by using Assertible's automated QA
-    tools to test and monitor your web services across deployments and
-    environments. Reduce bugs in web applications by using Assertible to create
-    an automated QA pipeline that helps you catch failures and ship code faster.
-  url: 'https://assertible.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/AssertibleApp'
-  blog: 'https://assertible.com/blog'
-  blog_rss: ''
-  github: 'https://github.com/assertible'
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2017-04-27 at 1.26.20 PM.png
-  tags: Testing
-- slug: aws-xray
-  name: AWS X-Ray
+    Shot 2017-03-16 at 9.06.47 PM.png
+  tags: 'Discovery,Google APIs,Definitions'
+- slug: public-apis
+  name: Public APIs
   description: >-
-    AWS X-Ray helps developers analyze and debug production, distributed
-    applications, such as those built using a microservices architecture. With
-    X-Ray, you can understand how your application and its underlying services
-    are performing to identify and troubleshoot the root cause of performance
-    issues and errors. X-Ray provides an end-to-end view of requests as they
-    travel through your application, and shows a map of your applications
-    underlying components. You can use X-Ray to analyze both applications in
-    development and in production, from simple three-tier applications to
-    complex microservices applications consisting of thousands of services.
-  url: 'https://aws.amazon.com/xray/'
+    We know how hard it is to find great APIs. So&nbsp;we
+    built&nbsp;PublicAPIs.com&nbsp;where you can instantly search through
+    thousands of APIs and discover public&nbsp;cloud web services. By searching
+    through public APIs, developers can save time and energy, easily finding the
+    APIs (software components) they need to quickly create and deliver an
+    application on any platform (Mobile, Web, etc).
+  url: 'http://publicapis.com/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
-  tags: 'Amazon Web Services,Monitoring,Testing,Orchestration'
-- slug: azure-application-insights
-  name: Azure Application Insights
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/public-apis-com-logo.png
+  tags: 'Discovery,Discovery,Mashape'
+- slug: product-hunt
+  name: Product Hunt
   description: >-
-    Get rich performance monitoring, powerful alerting, and easy-to-consume
-    dashboards to help ensure your applications are available and performing as
-    you expect. Quickly see if you have a problem, how many customers are
-    affected, and perform a root cause analysis to find and fix the issue.
-  url: 'https://azure.microsoft.com/en-us/services/application-insights/'
+    Product Hunt surfaces the best new products, every day. It's a place for
+    product-loving enthusiasts to share and geek out about the latest mobile
+    apps, websites, hardware projects, and tech creations.
+  url: ''
+  short_url: ''
+  twitter: 'https://twitter.com/producthunt'
+  blog: 'https://stories.producthunt.com/'
+  blog_rss: 'https://stories.producthunt.com/feed/'
+  github: 'https://github.com/producthunt'
+  image: >-
+    https://d1qb2nb5cznatu.cloudfront.net/startups/i/303943-1d6fe280010ae474ddd9f37792a6b604-medium_jpg.jpg?buster=1386178935
+  tags: 'Discovery,Curation,Startups,Products,Apps,Evangelism'
+- slug: programmableweb
+  name: ProgrammableWeb
+  description: >-
+    ProgrammableWeb is where you stay in tune with what's new and interesting
+    with mashups, Web 2.0 APIs, and the new Web as Platform. The core of the
+    site is the news blog and the 4 dashboards: Home, Mashups, APIs, and
+    Members. New updates every day, 365 days a year. ProgrammableWeb was the
+    original public, web API directory, providing a growing directory of APIs
+    that every developer has used to discover the APIs they are looking for.
+    &nbsp; ProgrammableWeb was started in 2005 by John Musser, and sold to
+    Alcatel-Lucent in 2010, then again in 2013 to Mulesoft. &nbsp;
+  url: 'http://www.programmableweb.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/programmableweb'
+  blog: 'http://www.programmableweb.com/'
+  blog_rss: 'http://feeds2.feedburner.com/programmableweb'
+  github: 'https://github.com/programmableweb'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/programmable-web-logo.png
+  tags: 'Discovery,Blog,API News'
+- slug: api-harmony
+  name: API Harmony
+  description: >-
+    IBM API Harmony for Bluemix supports developers in identifying and selecting
+    APIs. It reveals relationships of already selected and searched for APIs,
+    guiding developers in finding useful API combinations.
+  url: 'https://console.ng.bluemix.net/catalog/api-harmony/'
+  short_url: ''
+  twitter: 'https://twitter.com/ApiHarmony'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api_harmony_twittercard.png
+  tags: Discovery
+- slug: apihound
+  name: APIHound
+  description: >-
+    We launched APIHound because -like you- we depend on finding APIs to build
+    cool stuff. We searched for a good API directory, but all we found were
+    sites like ProgrammableWeb that have been manually collecting APIs for years
+    and PublicAPIs which has a very small API database. There had to be more
+    APIs out there waiting to be found. We decided it was time to bring API
+    Searching into the 21st century. APIHound is continuously examining billions
+    of pages to locate the best API resources. The result is that APIHound has
+    uncovered over 50,000 APIs indexed, categorized, and available for
+    searching. Our API list is more than 4x larger than similar sites that have
+    been around for years. We are working hard to add more sites and categories
+    and tune our detection and scoring strategies. Our mission is to help you
+    uncover APIs that will help you build great things.
+  url: 'http://apihound.com/apifinder'
+  short_url: ''
+  twitter: 'https://twitter.com/apihound'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-hound-icon.jpg
+  tags: Discovery
+- slug: apis.json
+  name: APIs.json
+  description: >-
+    APIs are becoming a crucial part of the Web. Unfortunately however, it
+    remains very difficult to determine the location of these APIs on servers
+    around the Web. The only way to discover APIs and their properties is via
+    human driven search through public search engines or in hand curated API
+    Directory listings. While these methods work, neither can scale to the
+    potentially hundreds of thousands and millions of APIs which will be
+    published over the next few years.
+  url: 'http://apisjson.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/APIsjson'
+  blog: 'http://apisjson.org/blog/'
+  blog_rss: 'http://apisjson.org/blog.xml'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apisdotjson.png
+  tags: Discovery
+- slug: kapeli
+  name: Kapeli
+  description: >-
+    Dash is an API Documentation Browser and Code Snippet Manager. Dash stores
+    snippets of code and instantly searches offline documentation sets for 150+
+    APIs (for a full list, see below). You can even generate your own docsets or
+    request docsets to be included.
+  url: 'https://kapeli.com/dash'
+  short_url: ''
+  twitter: 'https://twitter.com/kapeli'
+  blog: 'https://blog.kapeli.com/'
+  blog_rss: 'https://blog.kapeli.com/atom.xml'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kapelli-dash.jpeg
+  tags: Discovery
+- slug: rapidapi
+  name: RapidAPI
+  description: >-
+    RapidAPI is the world&rsquo;s largest API marketplace. RapidAPI lets you
+    visualize all your apps&rsquo; APIs, and gives you real-time metrics on
+    their stability. There are millions of software programs out there and
+    they&rsquo;re reshaping every aspect of our lives. We believe that they can
+    get exponentially better by sharing data and functionality with each other.
+    APIs are the language that software uses to communicate and connect.
+    &nbsp;That&rsquo;s why we love APIs.
+  url: 'https://www.rapidapi.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/rapid_api'
+  blog: 'http://blog.rapidapi.com/'
+  blog_rss: 'http://blog.rapidapi.com/feed/'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rapidapi-logo.png
+  tags: Discovery
+- slug: w3c-web-api-discovery-group
+  name: W3C Web API Discovery Group
+  description: >-
+    A group to develop a mechanism for the automatic discovery of WebAPIs, by
+    extending the schema.org vocabulary. Increasingly, large online platforms
+    and services provide one or more Web APIs for third-party developers.
+    Moreover, many companies build WebAPIs as their primary product (Email API,
+    SMS API, etc.). This has resulted in an explosion of the number of WebAPIs
+    in recent years. Developers spend a significant amount of time searching for
+    suitable WebAPIs to meet their needs. Our intention is to work closely with
+    Schema.org to define a WebAPI-specific extension and promote usage of this
+    extension among API owners. In the long run, our aim is to contribute this
+    extension into the core Schema.org vocabulary. To achieve these goals we are
+    seeking feedback and collaboration from API owners, DX specialists, API
+    description language experts and maintainers of various API catalogs.
+  url: 'https://www.w3.org/community/web-api-discovery/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: 'http://www.w3.org/community/web-api-discovery/feed/'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/W3C®_Icon.svg.png
+  tags: Discovery
+- slug: apis.io
+  name: apis.io
+  description: >-
+    APIs.io os an experimental API Search service to help discover APIs on the
+    web. The service uses the APIs.json proposed discovery format. To find APIs
+    type your request in the search box. To get listed follow the instructions
+    in the FAQ. The Search engine is also open source so you can run your own
+    copy.
+  url: 'http://apis.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/apisio'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/apisio'
+  image: 'http://apis.io/logo_square.png'
+  tags: 'Directory,Discovery,Discovery,Search,Search engine'
+- slug: contentgems
+  name: ContentGems
+  description: >-
+    ContentGems helps marketers find, curate, and share engaging content so they
+    can build their company's thought leadership and increase qualified website
+    traffic. ContentGems was founded in 2011 by Jeff Ward, Joachim Hund, and
+    Michael J. Fern, who were seeking to carry out content marketing for their
+    own software development and consulting businesses.
+  url: 'http://contentgems.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/ContentGems'
+  blog: 'http://blog.contentgems.com/'
+  blog_rss: 'http://blog.contentgems.com/feed/'
+  github: 'https://github.com/intigi'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/contentgems.jpeg
+  tags: 'Content,Content Discovery'
+- slug: lateral
+  name: Lateral
+  description: >-
+    Lateral's mission is to help people discover the information they need when
+    they need it. By enabling developers to integrate machine learning into
+    their services, we hope to accelerate discovery, understanding and
+    ultimately collaboration across a wide range of disciplines. We identify
+    solutions that benefit from machine learning and build modular APIs that are
+    simple to integrate. Our first API is the Hybrid Recommender that merges
+    behavioural data and machine intelligence. It solves a problem faced by many
+    of how to provide relevant content recommendations to users and can work
+    without collaborative data
+  url: 'https://lateral.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/uselateral'
+  blog: 'https://blog.lateral.io/'
+  blog_rss: 'https://blog.lateral.io/feed/'
+  github: 'https://github.com/lateral'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lateral-io-logo.png
+  tags: 'Content,Content Discovery'
+- slug: aws-service-catalog
+  name: AWS Service Catalog
+  description: >-
+    AWS Service Catalog allows organizations to create and manage catalogs of IT
+    services that are approved for use on AWS. These IT services can include
+    everything from virtual machine images, servers, software, and databases to
+    complete multi-tier application architectures. AWS Service Catalog allows
+    you to centrally manage commonly deployed IT services, and helps you achieve
+    consistent governance and meet your compliance requirements, while enabling
+    users to quickly deploy only the approved IT services they need.
+  url: 'https://aws.amazon.com/servicecatalog/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
-  tags: 'Microsoft,Monitoring,Testing,Diagnostics'
-- slug: azure-devtest-labs
-  name: Azure DevTest Labs
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  tags: 'Amazon Web Services,Discovery'
+- slug: aws-ec2-container-registry-service
+  name: AWS EC2 Container Registry Service
   description: >-
-    Azure DevTest Labs makes it easy to quickly create environments to deploy
-    and test applications. Use reusable templates and artifacts to build Windows
-    and Linux environments while minimalizing waste and controlling costs.
-  url: 'https://azure.microsoft.com/en-us/services/devtest-lab/'
+    Amazon EC2 Container Registry (ECR) is a
+    fully-managed&nbsp;Docker&nbsp;container registry that makes it easy for
+    developers to store, manage, and deploy Docker container images. Amazon ECR
+    is integrated with&nbsp;Amazon EC2 Container Service (ECS), simplifying your
+    development to production workflow. Amazon ECR eliminates the need to
+    operate your own container repositories or worry about scaling the
+    underlying infrastructure. Amazon ECR hosts your images in a highly
+    available and scalable architecture, allowing you to reliably deploy
+    containers for your applications. Integration with AWS Identity and Access
+    Management (IAM) provides resource-level control of each repository. With
+    Amazon ECR, there are no upfront fees or commitments. You pay only for the
+    amount of data you store in your repositories and data transferred to the
+    Internet.
+  url: 'https://aws.amazon.com/ecr/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
-  tags: 'Testing,Microsoft,Orchestration'
-- slug: bad-testing
-  name: BAD TESTING
-  description: "BAD TESTING offers software testing consulting services and helps you manage risks associated with technology changes. We offer\_an advanced and versatile skill set in software quality assurance, testing, and configuration to ensure effectively and on time product releases. We are experts at testing and evaluating both hardware and software products to identify and resolve all potential issues for both start ups or established environments."
-  url: 'http://www.badtesting.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/BadTesting'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bad-testing-logo.png
-  tags: 'Testing,Chicago,Blog'
-- slug: blazemeter
-  name: BlazeMeter
-  description: >-
-    BlazeMeter is a self-service, load testing platform (PaaS) for developers
-    providing an enterprise grade, out-of-the-box load testing solution. Start
-    testing in under five minutes. BlazeMeter significantly simplifies the load
-    testing process by providing developers easy integration into their native
-    development environment.
-  url: 'http://blazemeter.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/BlazeMeter'
-  blog: 'http://blazemeter.com/blog'
-  blog_rss: 'http://feedburner.google.com/fb/a/mailverify?uri=JmeterCloudBlog'
-  github: 'https://github.com/Blazemeter'
-  image: ''
-  tags: 'Testing,Testing,Performance'
-- slug: bugbuster
-  name: BugBuster
-  description: >-
-    BugBuster provides a full suite of functional testing tools. We make it easy
-    to build functional tests and automate the repetitive manual testing of your
-    site.
-  url: 'http://bugbuster.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/BugBuster_Inc'
-  blog: 'http://blog.bugbuster.com/'
-  blog_rss: 'http://blog.bugbuster.com/feed/'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2039_logo.png
-  tags: 'Bug,Detection,Code,Testing'
-- slug: catch-software
-  name: Catch Software
-  description: >-
-    Catch Software makes test management software, execution and integration
-    tools that help QA professionals get more out of their testing effort. Our
-    flagship product, Enterprise Tester, is test management software which was
-    released in early 2009 and is built by QA professionals for QA
-    professionals, Enterprise Tester provides testers with easy management of
-    test plans, execution sets, requirements, and incidents.
-  url: 'http://catchsoftware.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/catchsoftware'
-  blog: 'http://catchsoftware.com/blogs/'
-  blog_rss: 'http://catchsoftware.com/blogs/feed/'
-  github: 'https://github.com/catch-software'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/catch_logo.gif
-  tags: Testing
-- slug: crossbrowsertesting
-  name: CrossBrowserTesting
-  description: >-
-    Test your website in dozens of browsers and real devices with instant
-    results. Over one thousand combinations of browsers, OSs, and devices. With
-    CrossBrowserTesting.com, you can test your sites on more than 1500 browsers
-    across more than 65 operating systems, including iOS, Android, Windows, Mac
-    and more.
-  url: 'http://crossbrowsertesting.com'
-  short_url: ''
-  twitter: 'https://twitter.com/xbrowsertesting'
-  blog: 'http://crossbrowsertesting.com/blog'
-  blog_rss: 'http://crossbrowsertesting.com/blog/feed'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cbt-logo.png
-  tags: 'Performance,Projects,Testing,Browser Testing'
-- slug: crosscheck-networks
-  name: Crosscheck Networks
-  description: >-
-    Crosscheck Networks is the global leader in API Testing, Simulation, and
-    Gateway technologies with product deployments in over 50,000 customer
-    networks worldwide. Comprehensive API testing includes functional
-    automation, performance, compliance and security testing with patented
-    dynamic mutation technology.
-  url: 'http://www.crosschecknet.com/'
-  short_url: ''
-  twitter: ''
-  blog: 'http://soa-testing.blogspot.com/'
-  blog_rss: 'http://feeds.feedburner.com/soatesting?format=xml'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cross-check-networks.png
-  tags: 'Testing,Security,Virtualization,API Gateways'
-- slug: cucumber
-  name: Cucumber
-  description: >-
-    Cucumber lets software development teams describe how software should behave
-    in plain text. The text is written in a business-readable domain-specific
-    language and serves as documentation, automated tests and development-aid -
-    all rolled into one format.
-  url: 'https://cucumber.io/'
-  short_url: ''
-  twitter: ''
-  blog: 'https://cucumber.io/blog'
-  blog_rss: 'https://cucumber.io/feed.xml'
-  github: 'https://github.com/cucumber'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cucumber.png
-  tags: Testing
-- slug: firebase
-  name: Firebase
-  description: >-
-    Firebase is a mobile platform that helps you
-    quickly&nbsp;develop&nbsp;high-quality apps,&nbsp;grow&nbsp;your user base,
-    and&nbsp;earn&nbsp;more money. Firebase is made up of complementary features
-    that you can mix-and-match to fit your needs.
-  url: 'https://firebase.google.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/firebase'
-  blog: 'https://firebase.googleblog.com/'
-  blog_rss: 'http://firebase.googleblog.com/feeds/posts/default?alt=rss'
-  github: 'https://github.com/firebase'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  tags: >-
-    Real Time,API LIfeycle,Database,Command Line Interface,Links,Google
-    APIs,Security,Testing,Virtualization
-- slug: flood-io
-  name: Flood IO
-  description: >-
-    Flood enables you to generate load from any AWS region, using your own
-    account or ours to achieve the most realistic traffic scenarios. We collate
-    all the results for you, so you can spend more time testing. We sort out the
-    infrastructure, so you can spend more time testing. We've built a massive
-    distributed shared nothing infrastructure which lets you scale out on
-    demand. You'll enjoy much better economies of scale on Flood than you can on
-    our competitors.
-  url: 'https://flood.io/'
-  short_url: ''
-  twitter: 'https://twitter.com/flood_io'
-  blog: 'https://blog.flood.io/'
-  blog_rss: 'https://blog.flood.io/rss/'
-  github: 'https://github.com/flood-io'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flood-io.png
-  tags: 'Testing,Performance'
-- slug: frisby.js
-  name: Frisby.js
-  description: >-
-    Frisby is a REST API testing framework built on node.js and Jasmine that
-    makes testing API endpoints easy, fast, and fun. Read below for a quick
-    overview, or check out the API documentation.
-  url: 'http://frisbyjs.com/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/frisby-js.png
-  tags: Testing
-- slug: google-stackdriver
-  name: Google Stackdriver
-  description: >-
-    Google Stackdriver provides powerful monitoring, logging, and diagnostics.
-    It equips you with insight into the health, performance, and availability of
-    cloud-powered applications, enabling you to find and fix issues faster. It
-    is natively integrated with Google Cloud Platform, Amazon Web Services, and
-    popular open source packages. Stackdriver provides a wide variety of
-    metrics, dashboards, alerting, log management, reporting, and tracing
-    capabilities.
-  url: 'https://cloud.google.com/stackdriver/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-stackdriver-debugger.png
-  tags: 'Monitoring,Testing,Debugging,Google APIs,Logging'
-- slug: gtmetrix
-  name: GTmetrix
-  description: >-
-    GTmetrix can help you develop a faster, more efficient, and all-around
-    improved website experience for your users.  Studies show that users leave a
-    site if it hasn&#8217;t loaded in 4 seconds; keep your users happy and
-    engaged by providing a fast performing website!  GTmetrix uses Google Page
-    Speed and Yahoo! YSlow to grade your site&#8217;s performance and provides
-    actionable recommendations to fix these issues.  GTmetrix provides: full
-    video capture of how your site loads from multiple regions around the world,
-    performance monitoring and alerts for when your site dips below a given
-    threshold, easy to use API for integration with other sites, and much more!
-  url: 'http://gtmetrix.com'
-  short_url: ''
-  twitter: 'https://twitter.com/gtmetrix'
-  blog: ''
-  blog_rss: 'http://gtmetrix.com/news.xml'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/806_logo.png
-  tags: Performance Testing
-- slug: load-impact
-  name: Load Impact
-  description: >-
-    Load Impact is an online load testing service for websites, web apps, mobile
-    apps and APIs. The service allows users to run load tests over the Internet,
-    rather than having to set up their own load testing infrastructure to run
-    tests. Tests are easily repeatable, with minimum preparation required, which
-    also makes the service a good development/optimization tool.
-  url: 'https://loadimpact.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/loadimpact'
-  blog: 'http://blog.loadimpact.com/'
-  blog_rss: 'http://blog.loadimpact.com/rss.xml'
-  github: 'https://github.com/loadimpact'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/load-impact-logo.png
-  tags: 'Testing,Performance'
-- slug: loader.io
-  name: Loader.io
-  description: >-
-    Loader.io is a free load testing service that allows you to stress test your
-    web-apps/apis with thousands of concurrent connections. We were born out of
-    SendGrid Labs which is a new and growing internal effort at SendGrid. Born
-    in late 2012, SendGrid Labs builds tools and services to help developers
-    focus on their core business. We aim to provide creative and innovative
-    solutions to common developer pain points, to make their lives easier, and
-    to help them scale.
-  url: 'https://loader.io/'
-  short_url: ''
-  twitter: 'https://twitter.com/loaderio'
-  blog: 'http://blog.loader.io/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/loader-io.png
-  tags: 'Testing,Performance'
-- slug: loadfocus
-  name: LoadFocus
-  description: >-
-    Load test with thousands of concurrent users. Monitor website uptime and
-    perfomance. Measure website speed and get insights. Run load tests in the
-    Cloud and stress your API with up to 50,000 concurrent users. Inspect
-    results to optimise and improve performance.
-  url: 'https://loadfocus.com/'
-  short_url: ''
-  twitter: ''
-  blog: 'http://loadfocus.com/blog/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/loadfocus.png
-  tags: 'Performance,Testing'
-- slug: parasoft
-  name: Parasoft
-  description: >-
-    Parasoft researches and develops software solutions that help organizations
-    deliver defect-free software efficiently. By integrating&nbsp;development
-    testing,&nbsp;API testing, and&nbsp;service virtualization, we reduce the
-    time, effort, and cost of delivering secure, reliable, and compliant
-    software. Parasoft's enterprise and embedded development solutions are the
-    industry's most comprehensive&mdash;including static analysis, unit testing,
-    requirements traceability, coverage analysis, functional and load testing,
-    dev/test environment management, and more.
-  url: 'http://www.parasoft.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/Parasoft'
-  blog: 'http://blog.parasoft.com/'
-  blog_rss: 'http://www.parasoft.com/rss/'
-  github: 'https://github.com/parasoft'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/parasoft-logo.png
-  tags: 'Testing,Virtualization'
-- slug: postman
-  name: Postman
-  description: >-
-    Postman on Chrome is the most efficient way to test, develop and document
-    APIs. Create complex requests, go back in time and view results in a
-    beautiful way. Postman has more than 80 features to help you at every
-    step.&nbsp;Our user base is growing rapidly and with more tools in the
-    pipeline, Postman aims to provide the most comprehensive API development and
-    testing solution to developers.
-  url: 'http://www.getpostman.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/postmanclient'
-  blog: 'http://blog.getpostman.com/'
-  blog_rss: 'http://blog.getpostman.com/index.php/feed/'
-  github: 'https://github.com/postmanlabs'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png
-  tags: 'Clients, Testing, Definitions'
-- slug: rest-united
-  name: REST United
-  description: >-
-    Our mission is to help REST API providers easily create SDKs in different
-    programming languages with easy-to-follow documentation and code samples
-    while software developers can effortlessly consume the REST API by following
-    the SDK installation instruction and using the code samples within minutes.
-  url: 'http://restunited.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/restunited'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rest-united.png
-  tags: 'Documentation,SDK,Testing,Debugging,API Management SDK'
-- slug: restcase
-  name: RestCase
-  description: >-
-    RestCase focuses on the REST API development cycle and enhances team
-    collaboration, reduces development time, improves testing and increases
-    overall product quality.
-  url: 'http://www.restcase.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/RestCaseApi'
-  blog: 'http://blog.restcase.com/'
-  blog_rss: 'http://blog.restcase.com/rss/'
-  github: 'https://github.com/restcase'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restcase_logo.png
-  tags: 'Virtualization,Testing'
-- slug: restlet-dhc
-  name: Restlet DHC
-  description: >-
-    Call APIs to discover and validate their behavior, build and run complete
-    test scenarios.&nbsp;Trying out an API to check its behavior usually
-    involves writing a program or sending command line instructions to call the
-    API
-  url: 'https://restlet.com/products/dhc/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restlet-dhc-logo.jpg
-  tags: 'Clients,Testing'
-- slug: rightapi
-  name: RightAPI
-  description: >-
-    TheRightAPI is enabling the API community by providing solutions to make
-    working with APIs easier. If you need to discover, trust, monitor and manage
-    APIs, TheRightAPI is here to help. TheRightAPI provides the platform and
-    intelligence developers need to establish and maintain successful next
-    generation applications.
-  url: 'http://www.therightapi.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/rightapi'
-  blog: 'http://blog.therightapi.com'
-  blog_rss: 'http://feeds.feedburner.com/rtur'
-  github: 'https://github.com/theRightAPI'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/therightapi-logo-2.png
-  tags: Testing
-- slug: runscope
-  name: Runscope
-  description: >-
-    Runscope was started with the idea that depending on a web service API in a
-    mobile or web application should be as easy as depending on code running
-    locally. We&rsquo;ve assembled a team of API, infrastructure and developer
-    experience experts to build tools to support the modern application
-    development lifecycle.
-  url: 'https://www.runscope.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/Runscope'
-  blog: 'http://blog.runscope.com/'
-  blog_rss: 'http://blog.runscope.com/posts?format=rss'
-  github: 'https://github.com/Runscope'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/runscope-logo.png
-  tags: 'My API Stack,Monitoring,Testing,Monitoring,Testing,API LIfeycle'
-- slug: smartbear-software
-  name: SmartBear Software
-  description: >-
-    SmartBear Software provides tools for over 100,000 software professionals to
-    build, test, and monitor some of the best software applications and websites
-    anywhere on the desktop, mobile and in the cloud.
-  url: 'http://smartbear.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/smartbear'
-  blog: 'http://blog.smartbear.com/'
-  blog_rss: 'http://feeds.feedburner.com/smartbear'
-  github: 'https://github.com/SmartBear'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
-  tags: 'Security,Testing,Monitoring,Virtualization,Performance,API LIfeycle'
-- slug: stoplight
-  name: StopLight
-  description: >-
-    StopLight provides engineering teams with a new way to document, test, and
-    build web APIs. Our technology easily and automatically maps an API, and
-    then provides tooling and services to reduce development time, and increase
-    reliability and accessibility.
-  url: 'http://stoplight.io/'
-  short_url: ''
-  twitter: 'https://twitter.com/stoplightio'
-  blog: 'http://blog.stoplight.io/'
-  blog_rss: 'http://blog.stoplight.io/rss/'
-  github: 'https://github.com/stoplightio'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stoplight-io-logo.png
-  tags: 'Testing,Clients,API LIfeycle,Proxy,Design,Studio'
-- slug: vrest
-  name: vREST
-  description: 'Simplify, Automate and Speed-up REST API Testing'
-  url: 'http://vrest.io/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vrsest-logo.png
-  tags: 'Testing,Virtualization'
-- slug: webpagetest
-  name: WebPagetest
-  description: >-
-    WebPagetest is used for measuring and analyzing the performance of web
-    pages.  There are a lot of options that may seem intimidating at first but
-    doing quick testing is pretty simple.  This guide will walk you through
-    submitting a test and interpreting the results.
-  url: >-
-    https://sites.google.com/a/webpagetest.org/docs/advanced-features/webpagetest-restful-apis
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    https://s3.amazonaws.com/kinlane-productions/webpagetest/webpagetest-logo.png
-  tags: 'Websites,Performance Testing'
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  tags: 'Amazon Web Services,Containers,Discovery'
