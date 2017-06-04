@@ -1,0 +1,174 @@
+- slug: discoverysrv
+  name: discovery-srv
+  description: A discovery service for microservices
+  url: 'https://github.com/micro/discovery-srv'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Discovery
+- slug: API.json
+  name: APIs.json
+  description: >-
+    APIs are becoming a crucial part of the Web. Unfortunately however, it
+    remains very difficult to determine the location of these APIs on servers
+    around the Web. The only way to discover APIs and their properties is via
+    human driven search through public search engines or in hand curated API
+    Directory listings. While these methods work, neither can scale to the
+    potentially hundreds of thousands and millions of APIs which will be
+    published over the next few years.
+  url: 'http://apisjson.org/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apisdotjson.png
+  tags: 'Definitions,Discovery'
+- slug: apigee-api-console
+  name: Apigee API Console
+  description: >-
+    Apigee API Consoles make it easier for developers to learn and use an API.
+    You can think of a Console as a GUI for an API or cURL on steroids.
+    Featuring an easy-to-use interface, Apigee API Consoles provide a GUI for
+    exploring an API's resources and executing its methods.
+  url: 'http://apigee.com/docs/consoletogo'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apigee-api-console.jpg
+  tags: Discovery
+- slug: celeryapi
+  name: celery-api
+  description: Celery API discovery module
+  url: 'https://github.com/imankulov/celery-api'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Discovery
+- slug: armada
+  name: Armada
+  description: >-
+    Complete solution for development, deployment, configuration and discovery
+    of microservices.
+  url: 'https://github.com/armadaplatform/armada'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Discovery,Microservices'
+- slug: consul
+  name: Consul
+  description: 'Consul is a tool for service discovery, monitoring and configuration.'
+  url: 'https://github.com/hashicorp/consul'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Discovery
+- slug: apimanapicatalog
+  name: apiman-api-catalog
+  description: >-
+    Contains static service catalog information useful for implementing a simple
+    service catalog in comm
+  url: 'https://github.com/apiman/apiman-api-catalog'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Discovery
+- slug: home-documents-for-http-apis
+  name: Home Documents for HTTP APIs
+  description: >-
+    JSON Home Document is an HTTP API definition formated that follows the
+    RFC4627 specification, and has the media type application/json-home.
+  url: 'http://tools.ietf.org/html/draft-nottingham-json-home-02'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/ietf-logo.png
+  tags: 'Definitions,Design,Discovery'
+- slug: apimodels
+  name: api-models
+  description: Repository for API models in Swagger 2.0 format
+  url: 'https://github.com/APIs-guru/api-models/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Discovery
+- slug: googlediscoverytoswagger
+  name: google-discovery-to-swagger
+  description: Script for converting Google Discovery format into Swagger 2.0
+  url: 'https://github.com/APIs-guru/google-discovery-to-swagger/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Google Discovery,Converter,Swagger'
+- slug: hyperbahn
+  name: Hyperbahn
+  description: Service discovery and routing for large scale microservice operations
+  url: 'https://github.com/uber/hyperbahn'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Discovery
+- slug: google-api-explorer
+  name: Google API Explorer
+  description: >-
+    The Google APIs Explorer allows developers to navigate Google API services,
+    browse available methods, make API requests, and see responses. The Explorer
+    is written in GWT and relies heavily on the Discovery API. By selecting an
+    API you want to explore, you can see all the available methods and
+    parameters along with inline documentation. Just fill out the parameters for
+    the method you want to try and click &ldquo;Execute&rdquo;. The Explorer
+    composes the request, executes it, and displays the response in real
+    time.&nbsp;
+  url: 'https://code.google.com/p/google-apis-explorer/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/google-api-explorer.jpg
+  tags: Discovery
+- slug: openapidirectory
+  name: openapi-directory
+  description: >-
+    Wikipedia for Web APIs. Directory of REST API specs in OpenAPI(fka Swagger)
+    2.0 format.
+  url: 'https://github.com/APIs-guru/openapi-directory'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Discovery
