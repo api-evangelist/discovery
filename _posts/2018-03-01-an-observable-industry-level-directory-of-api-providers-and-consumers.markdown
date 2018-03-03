@@ -10,7 +10,7 @@ tags:
   - Authentication
   - Discovery
   - Marketplace
-image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/stories/vancouver_diego_rivera1.jp'
+image: 'https://s3.amazonaws.com/kinlane-productions/algo-rotoscope/stories/vancouver_diego_rivera1.jpg'
 ---
 <p><img src="{{ page.image }}" width="45%" align="right" style="padding: 15px;" /></p>I've been breaking down the work on banking APIs coming out of [Open Banking in the UK](http://apievangelist.com/2018/02/21/what-is-open-banking-in-the-uk/) lately. I recently took all their [OpenAPI definitions and published as a demo API developer portal](http://open.banking.blueprint.apievangelist.com/). Bringing the definitions out of the shadows a little bit, and showing was is possible with the specification. Pushing the project forward some more today I published [the Open Banking API Directory specification to the project](http://open.banking.blueprint.apievangelist.com/#Open Banking - Directory APIs), showing the surface area of the very interesting, and important component of open banking APIs in the UK.
 
