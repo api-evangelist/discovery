@@ -1,110 +1,165 @@
-- building_block_id: apis.json
-  type: Discovery
-  category: API Definition Formats
-  name: APIs.json
-  description: >-
-    Use the APIs.json JSON specification for describing collections of APIs,
-    allowing them to be indexed for inclusion in public and private search
-    engines.
-  image: ''
-  tags: Discovery
-- building_block_id: api-directory
-  type: Discovery
-  category: How Are APIs Found?
-  name: API Directory
-  description: >-
-    API directories allow for the submissions and curation of APIs, then enable
-    users to search and browse by keywords and tags, in many areas.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-directory.png
-  tags: 'Discovery,Directory,Discovery'
-- building_block_id: api-hub
-  type: Discovery
-  category: How Are APIs Found?
-  name: API Hub
-  description: >-
-    API directories usually span many categories, where hubs often focus on
-    specific area like telco, or healthcare, providing a single hub for
-    discovering APIs.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hub.png
-  tags: Discovery
-- building_block_id: ide-extension
-  type: Discovery
-  category: How Are APIs Found?
-  name: IDE Extension
-  description: >-
-    integrated development environment (IDE) extensions or add-ons that allow
-    developers to quickly discovery and understand API endpoints.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ide.png
-  tags: Discovery
-- building_block_id: api-explorer
-  type: Discovery
-  category: How Are APIs Found?
-  name: API Explorer
-  description: >-
-    Sometimes also called consoles are designed to provide an interactive
-    interface for developers to discover, explore, make calls and see responses
-    in an interactive way.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compass.png
-  tags: Discovery
-- building_block_id: api-questions
-  type: Discovery
-  category: How Are APIs Found?
-  name: API Questions
-  description: >-
-    Providing a list of questions about API operations, using the
-    api-questions-format, allowing common aspects to be indexed and discoverable
-    via API search.
-  image: ''
-  tags: Discovery
-- building_block_id: programmableweb
-  type: Discovery
-  category: API Directories
-  name: ProgrammableWeb
-  description: >-
-    The original API directory created by John Musser in 2005, to provide a
-    single, searchable directory of common public APIs.
-  image: ''
-  tags: Discovery
-- building_block_id: mashape
-  type: Discovery
-  category: API Directories
-  name: Mashape
-  description: >-
-    An API directory born out of the API management platform Mashape, providing
-    a directory of Mashape clients APIs.
-  image: ''
-  tags: Discovery
-- building_block_id: apis.io
-  type: Discovery
-  category: API Search Engines
-  name: APIs.io
-  description: >-
-    APIs.io is an open source search, driven using the APIs.json discovery
-    format, allowing API providers to manage the discovery index of their own
-    APIs, while allowing consumers to search, discover, and build collections of
-    APIs they use.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/apis-io-logo.png
-  tags: Discovery
-- building_block_id: crunchbase
-  type: Discovery
-  category: Business Directories
-  name: Crunchbase
-  description: >-
-    A directory of companies that is curated by Techcrunch, and allows an
-    approach to listing companies who have APIs.
-  image: ''
-  tags: Discovery
-- building_block_id: angellist
-  type: Discovery
-  category: Business Directories
-  name: AngelList
-  description: >-
-    Like Crunchbase, AngelList is a directory of companies, but also provides a
-    way to showcase companies who have APIs.
-  image: ''
-  tags: Discovery
+- building_block_id: web-concepts
+  type: Definitions
+  category: Formats
+  name: Web Concepts
+  descripion: >-
+    APIs are built on the web, and there are numerous web concepts in play that
+    should be considered as part of the API design process.
+  logo: ''
+  tags: Definitions
+- building_block_id: specification
+  type: Definitions
+  category: Formats
+  name: Specification
+  descripion: >-
+    The root specification for the API definition format, providing a base set
+    of rules for all services and tools that employ the spec.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+  tags: Definitions
+- building_block_id: schema
+  type: Definitions
+  category: Formats
+  name: Schema
+  descripion: >-
+    A representation of data model, used as part of an API request, or response,
+    usually in JSON, but increasingly YAML, and Markdown are also used.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+  tags: Definitions
+- building_block_id: generator
+  type: Definitions
+  category: Tooling
+  name: Generator
+  descripion: >-
+    Generating an API definition format from an existing system or platform,
+    outputting the portable machine readable format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-generate.png
+  tags: Definitions
+- building_block_id: parser
+  type: Definitions
+  category: Tooling
+  name: Parser
+  descripion: >-
+    Parses a machine readable API definition and makes ready for use in specific
+    language, structure, or platform.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-parse.png
+  tags: Definitions
+- building_block_id: validator
+  type: Definitions
+  category: Tooling
+  name: Validator
+  descripion: >-
+    Validates an API definition against its formal specification and schema,
+    producing a valid or invalid response, with as much detail as possible.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-valid.png
+  tags: Definitions
+- building_block_id: converter
+  type: Definitions
+  category: Tooling
+  name: Converter
+  descripion: >-
+    The conversion of an API definition from one format into another, allowing
+    designers to share API definitions in any format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-conversion.png
+  tags: Definitions
+- building_block_id: commandline
+  type: Definitions
+  category: Tooling
+  name: Command-Line
+  descripion: The usage of machine readable API definitions at the command line.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+  tags: Definitions
+- building_block_id: powershell
+  type: Definitions
+  category: Tooling
+  name: Powershell
+  descripion: The usage of machine readable API definitions via the powershell interface.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+  tags: Definitions
+- building_block_id: aggregator
+  type: Definitions
+  category: Tooling
+  name: Aggregator
+  descripion: Aggregation of APIs using a machine readable API definition format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-arrow-aggregate.png
+  tags: Definitions
+- building_block_id: translator
+  type: Definitions
+  category: Tooling
+  name: Translator
+  descripion: >-
+    Being able to translate an API definition format from one format to another,
+    either manually or automatically.
+  logo: ''
+  tags: Definitions
+- building_block_id: merging
+  type: Definitions
+  category: Tooling
+  name: Merging
+  descripion: >-
+    Tooling or other APIs that provide for the merging of common API definition
+    formats, allowing the granularity of what elements get merged, or do not get
+    merged. Ideally, this is an API, as well as simple web-based or desktop
+    tooling for API providers and consumers.
+  logo: ''
+  tags: Definitions
+- building_block_id: diff
+  type: Definitions
+  category: Tooling
+  name: Diff
+  descripion: >-
+    Providing side by side comparison of two API definitions, programmatically
+    and visually helping identify between two API definitions. This allows for
+    API architects, designers, and consumers to understand the completeness of
+    two definitions, in relation to each other.
+  logo: ''
+  tags: Definitions
+- building_block_id: editors
+  type: Definitions
+  category: Environment
+  name: Editors
+  descripion: >-
+    API definition editor, allowing for the creation, import, and export of API
+    definition formats, providing a simple, IDE like API editing experience.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+  tags: Definitions
+- building_block_id: ide-plugin
+  type: Definitions
+  category: Environment
+  name: IDE Plugin
+  descripion: >-
+    Providing integration with existing integrated development environments
+    (IDE), giving developers API discovery, documentation, and integration
+    tooling within the IDE.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+  tags: Definitions
+- building_block_id: forms
+  type: Definitions
+  category: Environment
+  name: Forms
+  descripion: >-
+    Dynamically generating an HTML form from an API definition, allow for the
+    structure, and handling to be driven by an API definition.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png
+  tags: Definitions
+- building_block_id: github
+  type: Definitions
+  category: Environment
+  name: GIthub
+  descripion: >-
+    Allowing for the import, publishing, and syncing of API definitions and
+    schemas to Github for forking, and management using the social coding
+    platform.
+  logo: ''
+  tags: Definitions
