@@ -15,24 +15,6 @@ title: API Evangelist - Design
 	</div>
 </section>
 
-<!-- Partners -->
-<a name="Partners"></a>
-<section>
-	<div class="features">
-		{% assign partners = site.data.partners.index | sort: 'view_sort' %}
-    {% for partner in partners %}
-      {% if partner.type == 'Sponsor' %}
-			<article>
-				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
-					<p>{{ partner.description }}</p>
-				</div>
-			</article>
-      {% endif %}
-    {% endfor %}
-	</div>
-</section>
 <!-- Blog Feature -->
 <a name="BlogFeature"></a>
 {% for post in site.posts limit:1 %}
